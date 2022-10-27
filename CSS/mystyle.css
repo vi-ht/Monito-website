@@ -31,8 +31,6 @@
 /*Main banner*/
 
 #banner {
-    /* background: url("MainBanner.png") no-repeat; */
-    /* background-attachment: fixed; */
     height: 100vh !important;
     width: 100% !important;
     object-fit: cover;
@@ -374,6 +372,8 @@ form {
         margin-bottom: 0.4em !important;
         word-spacing: -3px;
     }
+    
+    
 }
 
 @media screen and (min-width:762px) and (max-width:992px) {
@@ -398,6 +398,11 @@ form {
         font-size: 2.5em !important;
         margin-bottom: 0.4em !important;
         word-spacing: -3px;
+    }
+
+    main{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
     }
 }
 
@@ -436,6 +441,11 @@ form {
 
     #nav {
         background-color: var(--yellow) !important;
+    }
+
+    main{
+        padding-left: 2em !important;
+        padding-right: 2em !important;
     }
 
 }
