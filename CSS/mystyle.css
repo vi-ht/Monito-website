@@ -1,51 +1,45 @@
 /*Variable*/
+
 :root {
     --blue: #103559;
     --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
 }
 
 /*The way to calculate height and width of element*/
+
 * {
     box-sizing: border-box !important;
+}
+
+/*Fixed background of nav when scroll */
+
+#bg-nav {
+    background-color: var(--yellow);
+    width: 100%;
+    height: 11.4vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
+    transition: 0.4s;
 }
 
 /*Main banner*/
 
 #banner {
-    background: url("MainBanner.png") no-repeat;
-    background-attachment: fixed;
+    /* background: url("MainBanner.png") no-repeat; */
+    /* background-attachment: fixed; */
     height: 100vh !important;
     width: 100% !important;
     object-fit: cover;
     z-index: -1;
 }
 
-#banner_content {
-    margin-left: 80px !important;
-    color: var(--blue);
-    margin-top: 30vh !important;
-}
 
-/*Banner intro*/
-
-section#banner_content span:nth-child(1) {
-    font-size: 3.8em !important;
-    margin-bottom: -0.25em !important;
-    word-spacing: -3px;
-}
-
-section#banner_content span:nth-child(3) {
-    font-size: 3em !important;
-    margin-bottom: 0.25em !important;
-    word-spacing: -3px;
-}
-
-#view_intro_btn {
-    background-color: rgba(0, 0, 0, 0) !important;
-    color: var(--blue) !important;
-    border: 2px solid var(--blue);
-    padding-right: 38px;
-}
 
 /*Main navbar*/
 
@@ -72,75 +66,347 @@ form button {
 
 /*Our pets section*/
 
-section> div > p:nth-child(2), section#brand > div span {
+section>div>p:nth-child(2),
+section#brand>div span {
     color: var(--blue);
     font-size: 1.7em !important;
     margin-top: -0.7em;
 }
 
-section> div > p:nth-child(1), section#brand > div > p:first-child {
+section>div>p:nth-child(1),
+section#brand>div>p:first-child {
     font-size: 1.2em !important;
 }
 
 /*Our pet seller section*/
 
-section#brand > div > p > span:first-child {
+section#brand>div>p>span:first-child {
     color: var(--blue);
     font-size: 1.7em !important;
     margin-top: -0.7em;
 }
 
-section#brand > div > p:first-child {
+section#brand>div>p:first-child {
     font-size: 1.2em !important;
 }
+
 /*Card design*/
 
-.card-style{
+.card-style {
     background-color: white !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
 }
-.dog-name{
+
+.dog-name {
     font-size: 1em;
 }
-.dog-info{
+
+.dog-info {
     font-size: 0.85em !important;
     color: gray;
-    margin-bottom:10px !important;
+    margin-bottom: 10px !important;
 }
 
-#present_tag{
+#present_tag {
     background-color: #FCEED5;
 }
 
-div#present_tag > span {
-    bottom: 7px; 
+div#present_tag>span {
+    bottom: 7px;
     font-size: 0.9em;
     color: var(--blue);
 }
 
+div#list_of_knowledge h5:first-child>span {
+    background-color: var(--lightBlue) !important;
+}
+
 /*Adv banner*/
 
-section#adv p:nth-child(1) {
+section.adv p:nth-child(1) {
     font-size: 3.2em !important;
     margin-bottom: -0.55em !important;
     word-spacing: -3px;
     color: var(--blue);
 }
 
-section#adv p:nth-child(3) {
+section.adv p:nth-child(3) {
     font-size: 2.5em !important;
     margin-bottom: 0.25em !important;
     word-spacing: -3px;
     color: var(--blue);
 }
-/* Responsive for device has the width less than 1200px*/
 
-@media screen and (max-width:1200px) {
+section.adv>img:nth-child(2) {
+    position: absolute;
+    top: 4.3em;
+    left: 18em;
+}
+
+/*Footer design*/
+
+#footer {
+    position: absolute;
+    z-index: 2 !important;
+}
+
+section#footer>div:first-child {
+    background-color: var(--darkBlue) !important;
+}
+
+footer form {
+    background-color: var(--white) !important;
+}
+
+footer div:first-child>div:first-child {
+    color: var(--white) !important;
+}
+
+footer li {
+    list-style-type: none !important;
+}
+
+.col-logo-1 {
+    width: 14.28%;
+}
+
+img[class^="col-logo-"] {
+    float: left;
+    padding: 5px;
+}
+
+form input,
+form iconify-icon,
+form button {
+    display: none !important;
+}
+
+form {
+    display: 100% !important;
+}
+
+/* Responsive for device has the width more than 1800px*/
+
+@media screen and (min-width:1800px) {
+    form input {
+        width: 60% !important;
+        display: block !important;
+    }
+
+    form button {
+        width: 40% !important;
+        display: block !important;
+    }
+
+    form {
+        width: 60% !important;
+        margin: auto !important;
+    }
+
+    form iconify-icon {
+        display: block !important;
+    }
+}
+
+/* Responsive for device has the width more than 1500px*/
+
+@media screen and (min-width:1500px) {
+    form input {
+        width: 60% !important;
+        display: block !important;
+    }
+
+    form button {
+        width: 40% !important;
+        display: block !important;
+    }
+
+    form {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    form iconify-icon {
+        display: block !important;
+    }
+}
+
+/* Responsive for device has the width more than 1300px*/
+
+@media screen and (min-width:1300px) {
+    form input {
+        width: 60% !important;
+        display: block !important;
+    }
+
+    form button {
+        width: 40% !important;
+        display: block !important;
+    }
+
+    form {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    form iconify-icon {
+        display: block !important;
+    }
+}
+
+/* Responsive for device has the width more than 1200px*/
+
+@media screen and (max-width:1300px) {
     form input {
         width: 50% !important;
+        display: block !important;
     }
 
     form button {
         width: 50% !important;
+        display: block !important;
     }
+
+    form {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    form iconify-icon {
+        display: block !important;
+    }
+}
+
+/* Responsive for device has the width less than 1200px*/
+
+@media screen and (max-width:1200px) {
+    form input {
+        width: 40% !important;
+        display: block !important;
+    }
+
+    form iconify-icon {
+        display: block !important;
+    }
+
+    form button {
+        width: 60% !important;
+        display: block !important;
+    }
+}
+@media screen and (min-width:1201px)  {
+
+    #banner_content {
+        margin-left: 80px !important;
+        color: var(--blue);
+        margin-top: 30vh !important;
+    }
+    
+    /*Banner intro*/
+    
+    section#banner_content span:nth-child(1) {
+        font-size: 3.8em !important;
+        margin-bottom: -0.25em !important;
+        word-spacing: -3px;
+    }
+    
+    section#banner_content span:nth-child(3) {
+        font-size: 3em !important;
+        margin-bottom: 0.25em !important;
+        word-spacing: -3px;
+    }
+
+    section#banner_content > p {
+        width: 40% !important;
+    }
+    
+    #view_intro_btn {
+        background-color: rgba(0, 0, 0, 0) !important;
+        color: var(--blue) !important;
+        border: 2px solid var(--blue);
+        padding-right: 38px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    #banner_content {
+        /* margin-left: 80px !important; */
+        width: 80% !important;
+        margin: auto !important;
+        color: var(--blue);
+        margin-right: 10% !important;
+        margin-left: 10% !important;
+        margin-top: 15vh !important;
+    }
+
+    section#banner_content span:nth-child(1) {
+        font-size: 3.7em !important;
+        margin-bottom: -0.25em !important;
+        word-spacing: -3px;
+    }
+
+    section#banner_content span:nth-child(3) {
+        font-size: 3em !important;
+        margin-bottom: 0.4em !important;
+        word-spacing: -3px;
+    }
+}
+
+@media screen and (min-width:762px) and (max-width:992px) {
+
+    #banner_content {
+        /* margin-left: 80px !important; */
+        width: 80% !important;
+        margin: auto !important;
+        color: var(--blue);
+        margin-right: 10% !important;
+        margin-left: 10% !important;
+        margin-top: 15vh !important;
+    }
+
+    section#banner_content span:nth-child(1) {
+        font-size: 3.1em !important;
+        margin-bottom: -0.25em !important;
+        word-spacing: -3px;
+    }
+
+    section#banner_content span:nth-child(3) {
+        font-size: 2.5em !important;
+        margin-bottom: 0.4em !important;
+        word-spacing: -3px;
+    }
+}
+
+/* Responsive for device has the width less than 885px*/
+
+@media screen and (max-width:920px) {
+
+    form input,
+    form iconify-icon {
+        display: none !important;
+    }
+
+    form button {
+        width: 100% !important;
+        margin: auto !important;
+    }
+}
+
+/* Responsive for device has the width less than 700px*/
+
+@media screen and (max-width:785px) {
+
+    form input,
+    form iconify-icon,
+    form button {
+        display: none !important;
+    }
+
+    .col-logo-1 {
+        width: 25%
+    }
+
+    /*Banner intro*/
+
+
 }

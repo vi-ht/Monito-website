@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Monito - Home page</title>
     <meta name="Author" content="Thanh Vi" />
@@ -13,17 +14,25 @@
     <!-- import icon lib-->
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
-<body id="demo">
-    <img src="ASSET/MainBanner.png" alt="Main banner" id="banner">
+
+<body>
+    <!-- <img src="ASSET/HerroBanner.png" alt="Main banner" id="banner" class="d-none d-lg-block d-xl-none">
+    <img src="ASSET/HerroBannerTab.png" alt="Main banner" id="banner" class="d-none d-md-block d-lg-none">
+    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-none d-sm-block d-md-none">
+    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-block d-sm-none"> -->
+    <img src="ASSET/HerroBanner.png" alt="Main banner" id="banner" class="d-none d-xl-block d-xxl-block">
+    <img src="ASSET/HerroBannerTab.png" alt="Main banner" id="banner" class="d-none d-md-block d-lg-block d-xl-none">
+    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-none d-sm-block d-md-none">
+    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-block d-sm-none">
+    <div id="bg-nav"></div>
     <header class="container d-flex justify-content-center bg-success">
-        <nav class="  container-lg navbar navbar-expand-lg fixed-top top-0 mt-2" id="nav">
+        <nav class="container-lg navbar navbar-expand-sm fixed-top top-0 mt-0" id="nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="ASSET/Logo.png" alt="Logo" width="130" height="50"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
+                <a class="navbar-brand" href="#"><img src="ASSET/Logo.png" alt="Logo" width="130" height="50" id="pageLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 fw-bold w-100 d-flex">
                         <li class="nav-item me-2">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -37,8 +46,8 @@
                         <li class="nav-item me-2">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        <li class="nav-item me-2 w-100 flex-grow-1" id="searchform">
-                            <form class="d-flex position-relative" role="search">
+                        <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none" id="searchform">
+                            <form class="d-flex position-relative " role="search">
                                 <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2" width="24"
                                     height="24" style="color: #667479;"></iconify-icon>
                                 <input class="form-control rounded-pill me-2" style="padding-left: 35px" type="search"
@@ -46,7 +55,8 @@
                                 <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join
                                     the
                                     community</button>
-                            </form> <!-- End form -->
+                            </form> 
+                            <!-- End form -->
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -67,10 +77,11 @@
                 </div> <!-- End div -->
             </div> <!-- End div -->
         </nav> <!-- End nav -->
-        <section class="align-self-start position-absolute top-0 start-0 w-50 row" id="banner_content">
+        <section class="align-self-start position-absolute top-0 start-0  row" id="banner_content">
+            <!-- w-50 -->
             <span class="fw-bold">One More Friend</span><br />
             <span class="fw-semibold">Thousands More Fun!</span>
-            <p class="col-8 ">Having a pet means you have more joy, a new friend, a happy person who will always be with
+            <p class="col-12">Having a pet means you have more joy, a new friend, a happy person who will always be with
                 you
                 to have
                 fun. We have 200+ different pets that can meet your needs!</p>
@@ -110,7 +121,7 @@
                 </div> -->
             </div>
         </section>
-        <section id="adv" class="mt-5 position-relative">
+        <section class="mt-5 position-relative adv">
             <image src="ASSET/Banner.png" atl="advertisment banner" class="w-100"></image>
             <div class="position-absolute top-0 end-0 w-50 mt-5 me-5">
                 <p class="fw-bold text-end">One More Friend</p><br />
@@ -158,7 +169,7 @@
             </div>
         </section>
         <section id="brand">
-            <div  class="position-relative">
+            <div class="position-relative">
                 <p class="pt-5 fw-semibold">Proud to be part of <span class="fw-bold">Pet Seller</span></p>
                 <span class="mt-5 position-absolute top-0 end-0">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
@@ -168,9 +179,138 @@
                     </button>
                 </span>
             </div>
+            <!-- <div id="logoList" class="d-flex justify-content-between flex-nowrap w-100">
+                <img src="ASSET/BrandLogo.png" alt="Predigree logo">
+                <img src="ASSET/BrandLogo1.png" alt="Sheba logo">
+                <img src="ASSET/BrandLogo2.png" alt="Whiskas logo">
+                <img src="ASSET/BrandLogo3.png" alt="Barkers logo">
+                <img src="ASSET/BrandLogo4.png" alt="Good boy logo">
+                <img src="ASSET/BrandLogo5.png" alt="Butcher's logo">
+                <img src="ASSET/BrandLogo6.png" alt="Felix logo">
+            </div> -->
+            <div id="logoList" class="row d-flex justify-content-center">
+                <img src="ASSET/BrandLogo.png" alt="Predigree logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo1.png" alt="Sheba logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo2.png" alt="Whiskas logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo3.png" alt="Barkers logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo4.png" alt="Good boy logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo5.png" alt="Butcher's logo" class="col-logo-1">
+                <img src="ASSET/BrandLogo6.png" alt="Felix logo" class="col-logo-1">
+            </div>
+        </section>
+        <section class="mt-5 position-relative adv">
+            <img src="ASSET/Banner3.png" atl="advertisment banner" class="w-100"></img>
+            <img src="ASSET/fontisto_paw.png" alt="footprint of dog">
+            <div class="position-absolute top-0 start-0 mt-5 ms-5">
+                <p class="fw-bold text-start">Adoption</p><br />
+                <p class="fw-semibold text-start">We need help. so do they.</p>
+                <p class="text-start w-75">Adopt a pet and give it a home,
+                    it will be love you back unconditionally.</p>
+                <div class="d-inline float-start">
+                    <button class="btn rounded-pill text-center fw-bold searchBtn me-2" type="submit" id="">Explore
+                        Now</button>
+                    <button class="btn rounded-pill text-center fw-bold searchBtn position-relative " type="submit"
+                        id="view_intro_btn">View Intro
+                        <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
+                            class="position-absolute"></iconify-icon>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section id="petKnowledge">
+            <div id="title_section1" class="position-relative">
+                <p class="pt-5 fw-semibold text-capitalize">You already know ?</p>
+                <p class="fw-bold text-capitalize">Useful pet knowledge</p>
+                <span class="mt-5 position-absolute top-0 end-0">
+                    <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
+                        id="view_intro_btn">View more
+                        <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
+                            height="24" class="position-absolute"></iconify-icon>
+                    </button>
+                </span>
+            </div>
+            <div class="row" id="list_of_knowledge">
+                <!-- <div class="col-lg-4 col-md-4 p-2 ">
+                    <div class="card card-style p-2">
+                        <img src="ASSET/Knowledge1.png" class="card-img-top" alt="...">
+                        <div class="card-body pb-0 ps-1 pe-1">
+                            <h5><span class="badge rounded-pill text-bg-primary fw-normal p-2">Pet knowledge</span></h5>
+                            <h5 class="card-title dog-name lh-base">What is a Pomeranian? How to Identify Pomeranian Dogs</h5>
+                            <p class="dog-info d-inline lh-1">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.</p>
+                    </div>
+                </div> -->
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="position-relative d-flex justify-content-center">
+        <img src="ASSET/Footer.png" alt="Footer banner" id="" class="w-100 mt-5">
+        <section class="container bottom-0 mb-3" id="footer">
+            <div class="row p-4 rounded mb-4">
+                <div class="col-lg-4 fs-5 fw-bold">Register now so you don't miss our programs!</div>
+                <div class="col-lg-8 align-self-center">
+                    <form class="d-flex p-2 rounded" role="search">
+                        <input class="form-control me-2 p-2" style="padding-left: 35px" type="search"
+                            placeholder="Enter your mail..." aria-label="Search">
+                        <button class="btn text-center fw-bold searchBtn text-capitalize p-2" type="submit">Subcribe
+                            now</button>
+                    </form> <!-- End form -->
+                </div>
+            </div>
+            <div class="d-flex justify-content-between  mb-4 ">
+                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold">
+                    <li class="me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="d-flex justify-content-between a m-0 p-0">
+                    <li class="me-4">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <iconify-icon icon="akar-icons:facebook-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:twitter-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:instagram-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-0">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:youtube-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between mt-4 mb-4 ">
+                <div>
+                    <span>© 2022 Monito. All rights reserved.</span>
+                </div>
+                <div>
+                    <img src="ASSET/Logo.png" alt="Logo" width="130" height="50">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a class="me-3 nav-link" href="#">Terms of Service</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+
+    </footer>
     <script src="JS/myJS.js"></script>
 </body>
 
