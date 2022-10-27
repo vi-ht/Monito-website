@@ -31,7 +31,7 @@ const knowledge = knowledgeList.map(addKnowledgeToList);
 
 function addDogToList(value) {
     var html =
-        '<div class="col-lg-3 col-md-4 p-2 ">'
+        '<div class="col-6 col-sm-6 col-lg-3 col-md-4 p-2 ">'
         + '<div class="card card-style p-2">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
