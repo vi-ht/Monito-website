@@ -19,7 +19,7 @@
 #bg-nav {
     background-color: var(--yellow);
     width: 100%;
-    height: 11.4vh;
+    height: 4em;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -60,7 +60,14 @@ section#banner_content span:nth-child(3) {
 }
 
 #view_intro_btn {
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: var(--blue) !important;
+    border: 2px solid var(--blue);
+    padding-right: 38px;
+}
+
+#view_intro {
+    background-color: var(--yellow) !important;
     color: var(--blue) !important;
     border: 2px solid var(--blue);
     padding-right: 38px;
@@ -162,7 +169,7 @@ section.adv p:nth-child(3) {
     color: var(--blue);
 }
 
-section.adv>img:nth-child(2) {
+#footprint {
     position: absolute;
     top: 4.3em;
     left: 18em;
@@ -200,35 +207,36 @@ img[class^="col-logo-"] {
     padding: 5px;
 }
 
-form input,
-form iconify-icon,
-form button {
+form#searchform input,
+form#searchform iconify-icon,
+form#searchform button {
     display: none !important;
 }
 
-form {
+form#searchform {
     display: 100% !important;
 }
 
 /* Responsive for device has the width more than 1800px*/
 
 @media screen and (min-width:1800px) {
-    form input {
+
+    form#searchform input {
         width: 60% !important;
         display: block !important;
     }
 
-    form button {
+    form#searchform button {
         width: 40% !important;
         display: block !important;
     }
 
-    form {
+    form#searchform {
         width: 60% !important;
         margin: auto !important;
     }
 
-    form iconify-icon {
+    form#searchform iconify-icon {
         display: block !important;
     }
 }
@@ -236,45 +244,48 @@ form {
 /* Responsive for device has the width more than 1500px*/
 
 @media screen and (min-width:1500px) {
-    form input {
+
+    form#searchform input {
         width: 60% !important;
         display: block !important;
     }
 
-    form button {
+    form#searchform button {
         width: 40% !important;
         display: block !important;
     }
 
-    form {
+    form#searchform {
         width: 80% !important;
         margin: auto !important;
     }
 
-    form iconify-icon {
+    form#searchform iconify-icon {
         display: block !important;
     }
+
 }
 
 /* Responsive for device has the width more than 1300px*/
 
 @media screen and (min-width:1300px) {
-    form input {
+
+    form#searchform input {
         width: 60% !important;
         display: block !important;
     }
 
-    form button {
+    form#searchform button {
         width: 40% !important;
         display: block !important;
     }
 
-    form {
+    form#searchform {
         width: 90% !important;
         margin: auto !important;
     }
 
-    form iconify-icon {
+    form#searchform iconify-icon {
         display: block !important;
     }
 }
@@ -282,22 +293,23 @@ form {
 /* Responsive for device has the width more than 1200px*/
 
 @media screen and (max-width:1300px) {
-    form input {
+
+    form#searchform input {
         width: 50% !important;
         display: block !important;
     }
 
-    form button {
+    form#searchform button {
         width: 50% !important;
         display: block !important;
     }
 
-    form {
+    form#searchform {
         width: 90% !important;
         margin: auto !important;
     }
 
-    form iconify-icon {
+    form#searchform iconify-icon {
         display: block !important;
     }
 }
@@ -305,25 +317,55 @@ form {
 /* Responsive for device has the width less than 1200px*/
 
 @media screen and (max-width:1200px) {
-    form input {
+
+    form#searchform input {
         width: 40% !important;
         display: block !important;
     }
 
-    form iconify-icon {
+    form#searchform iconify-icon {
         display: block !important;
     }
 
-    form button {
+    form#searchform button {
         width: 60% !important;
         display: block !important;
     }
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1401px) {
 
     #banner_content {
-        margin-left: 80px !important;
+        margin-left: 10vw !important;
+        color: var(--blue);
+        margin-top: 30vh !important;
+    }
+
+    /*Banner intro*/
+
+    section#banner_content span:nth-child(1) {
+        font-size: 4.3em !important;
+        margin-bottom: -0.25em !important;
+        word-spacing: -3px;
+    }
+
+    section#banner_content span:nth-child(3) {
+        font-size: 3.3em !important;
+        margin-bottom: 0.25em !important;
+        word-spacing: -3px;
+    }
+
+    section#banner_content>p {
+        width: 40% !important;
+    }
+
+
+}
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+
+    #banner_content {
+        margin-left: 8vw !important;
         color: var(--blue);
         margin-top: 30vh !important;
     }
@@ -372,8 +414,7 @@ form {
         margin-bottom: 0.4em !important;
         word-spacing: -3px;
     }
-    
-    
+
 }
 
 @media screen and (min-width:762px) and (max-width:992px) {
@@ -400,22 +441,161 @@ form {
         word-spacing: -3px;
     }
 
-    main{
+    main {
         padding-left: 2em !important;
         padding-right: 2em !important;
     }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    /*Adv banner*/
+    section.adv p:nth-child(1) {
+        font-size: 2.2em !important;
+        margin-top: -0.4em !important;
+    }
+
+    section.adv p:nth-child(3) {
+        margin-top: -0.3em !important;
+        font-size: 1.7em !important;
+    }
+
+    section.adv p:nth-child(4) {
+        width: 95% !important;
+    }
+
+    #footprint {
+        position: absolute;
+        top: 2.6em;
+        left: 14em;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:870px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1) {
+        font-size: 2.8em !important;
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 2.3em !important;
+    }
+    #footprint {
+        position: absolute;
+        top: 4em;
+        left: 16.3em;
+    }
+}
+@media screen and (min-width:675px) and (max-width:800px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1) {
+        margin-top: 0.5em !important;
+        font-size: 2.3em !important;
+        margin-bottom: -0.8em !important;
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 1.9em !important;
+    }
+
+    section.adv p:nth-child(4) {
+        font-size: 0.85em !important;
+    }
+    #footprint {
+        position: absolute;
+        top: 4.5em;
+        left: 14em;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:675px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1) {
+        
+        font-size: 2em !important;
+        margin-bottom: -0.8em !important;
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 1.2em !important;
+    }
+
+    section.adv p:nth-child(4) {
+        font-size: 0.9em !important;
+    }
+
+    section.adv > div > div {
+        display: none !important;
+    }
+
+    #footprint {
+        position: absolute;
+        top: 3em;
+        left: 12.5em;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1) {
+        text-align: left !important;
+        font-size: 2.5em !important;
+        margin-bottom: -0.8em !important;
+        /* line-height:  !important; */
+    }
+
+    section.adv p:nth-child(3) {
+        text-align: left !important;
+        font-size: 2em !important;
+    }
+
+    section.adv p:nth-child(4) {
+        text-align: left !important;
+        font-size: 0.9em !important;
+        width: 100% !important;
+    }
+
+    section.adv > div > div {
+        float: left !important;
+        
+    }
+
+    section.adv > div {
+        width: 84% !important;
+        margin: 8% !important;
+        margin-top: 14vw !important;
+        
+    }
+
+    #footprint {
+        position: absolute;
+        top: 3em;
+        left: 12.5em;
+    }
+
 }
 
 /* Responsive for device has the width less than 885px*/
 
 @media screen and (max-width:920px) {
 
-    form input,
-    form iconify-icon {
+    form#searchform input,
+    form#searchform iconify-icon {
         display: none !important;
     }
 
-    form button {
+    form#searchform button {
         width: 100% !important;
         margin: auto !important;
     }
@@ -425,9 +605,9 @@ form {
 
 @media screen and (max-width:785px) {
 
-    form input,
-    form iconify-icon,
-    form button {
+    form#searchform input,
+    form#searchform iconify-icon,
+    form#searchform button {
         display: none !important;
     }
 
@@ -435,15 +615,11 @@ form {
         width: 25%
     }
 
-    #bg-nav {
-        height: 9vh;
-    }
-
     #nav {
         background-color: var(--yellow) !important;
     }
 
-    main{
+    main {
         padding-left: 2em !important;
         padding-right: 2em !important;
     }
@@ -451,14 +627,16 @@ form {
 }
 
 @media screen and (max-width:450px) {
+
     section#banner_content span:nth-child(1) {
         font-size: 2.2em !important;
     }
-    
+
     section#banner_content span:nth-child(3) {
         font-size: 1.7em !important;
     }
-    section#banner_content > p {
+
+    section#banner_content>p {
         margin-bottom: 0 !important;
     }
 

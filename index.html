@@ -44,8 +44,8 @@
                         <li class="nav-item me-2">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none" id="searchform">
-                            <form class="d-flex position-relative " role="search">
+                        <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none" >
+                            <form class="d-flex position-relative " role="search" id="searchform">
                                 <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2" width="24"
                                     height="24" style="color: #667479;"></iconify-icon>
                                 <input class="form-control rounded-pill me-2" style="padding-left: 35px" type="search"
@@ -85,7 +85,7 @@
                 fun. We have 200+ different pets that can meet your needs!</p>
             <div class="d-inline mt-3">
                 <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
-                    id="view_intro_btn">View Intro
+                    id="view_intro">View Intro
                     <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
                         class="position-absolute"></iconify-icon>
                 </button>
@@ -98,7 +98,7 @@
             <div id="title_section1" class="position-relative">
                 <p class="pt-5 fw-semibold">What's new?</p>
                 <p class="fw-bold">Take A Look At Some Of Our Pets</p>
-                <span class="mt-5 position-absolute top-0 end-0">
+                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
                         id="view_intro_btn">View more
                         <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
@@ -117,10 +117,20 @@
                         </div>
                     </div>
                 </div> -->
+                
             </div>
+            <span class="mt-3 w-100 d-block d-sm-none viewmore">
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100 fs-4" type="submit"
+                    id="view_intro_btn">View more
+                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="35"
+                        height="35" class="position-absolute"></iconify-icon>
+                </button>
+            </span>
         </section>
         <section class="mt-5 position-relative adv">
-            <image src="ASSET/Banner.png" atl="advertisment banner" class="w-100"></image>
+            <img src="ASSET/Banner.png" atl="advertisment banner" class="w-100 d-none d-lg-block"></img>
+            <img src="ASSET/BannerTab.png" atl="advertisment banner" class="w-100 d-none d-sm-block d-md-block d-lg-none"></img>
+            <img src="ASSET/BannerMo.png" atl="advertisment banner" class="w-100 d-block d-sm-none"></img>
             <div class="position-absolute top-0 end-0 w-50 mt-5 me-5">
                 <p class="fw-bold text-end">One More Friend</p><br />
                 <p class="fw-semibold text-end">Thousands More Fun!</p>
@@ -128,7 +138,7 @@
                     who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
                 <div class="d-inline float-end">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
-                        id="view_intro_btn">View Intro
+                        id="view_intro">View Intro
                         <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
                             class="position-absolute"></iconify-icon>
                     </button>
@@ -137,11 +147,11 @@
                 </div>
             </div>
         </section>
-        <section id="ourProducts">
+        <section id="ourProducts" class="d-none d-sm-block">
             <div id="title_section1" class="position-relative">
                 <p class="pt-5 fw-semibold">Hard to choose right products for your pets?</p>
                 <p class="fw-bold">Our Products</p>
-                <span class="mt-5 position-absolute top-0 end-0">
+                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
                         id="view_intro_btn">View more
                         <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
@@ -164,28 +174,20 @@
                         </div>
                     </div>
                 </div> -->
+                
             </div>
         </section>
-        <section id="brand">
+        <section id="brand" >
             <div class="position-relative">
                 <p class="pt-5 fw-semibold">Proud to be part of <span class="fw-bold">Pet Seller</span></p>
-                <span class="mt-5 position-absolute top-0 end-0">
+                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
                         id="view_intro_btn">View all our seller
                         <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
                             height="24" class="position-absolute"></iconify-icon>
                     </button>
-                </span>
+                </span> 
             </div>
-            <!-- <div id="logoList" class="d-flex justify-content-between flex-nowrap w-100">
-                <img src="ASSET/BrandLogo.png" alt="Predigree logo">
-                <img src="ASSET/BrandLogo1.png" alt="Sheba logo">
-                <img src="ASSET/BrandLogo2.png" alt="Whiskas logo">
-                <img src="ASSET/BrandLogo3.png" alt="Barkers logo">
-                <img src="ASSET/BrandLogo4.png" alt="Good boy logo">
-                <img src="ASSET/BrandLogo5.png" alt="Butcher's logo">
-                <img src="ASSET/BrandLogo6.png" alt="Felix logo">
-            </div> -->
             <div id="logoList" class="row d-flex justify-content-center">
                 <img src="ASSET/BrandLogo.png" alt="Predigree logo" class="col-logo-1">
                 <img src="ASSET/BrandLogo1.png" alt="Sheba logo" class="col-logo-1">
@@ -195,20 +197,28 @@
                 <img src="ASSET/BrandLogo5.png" alt="Butcher's logo" class="col-logo-1">
                 <img src="ASSET/BrandLogo6.png" alt="Felix logo" class="col-logo-1">
             </div>
+            <span class="mt-3 w-100 d-block d-sm-none viewmore">
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100 fs-4" type="submit"
+                    id="view_intro_btn">View all our seller
+                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="35"
+                        height="35" class="position-absolute"></iconify-icon>
+                </button>
+            </span>
         </section>
-        <section class="mt-5 position-relative adv">
-            <img src="ASSET/Banner3.png" atl="advertisment banner" class="w-100"></img>
-            <img src="ASSET/fontisto_paw.png" alt="footprint of dog">
-            <div class="position-absolute top-0 start-0 mt-5 ms-5">
+        <section class="mt-5 position-relative adv d-none d-sm-block">
+            <img src="ASSET/BannerAdopt.png" atl="advertisment banner" class="w-100 d-none d-lg-block"></img>
+            <img src="ASSET/BannerAdoptTab.png" atl="advertisment banner" class="w-100 d-none d-sm-block d-md-block d-lg-none"></img>
+            <img src="ASSET/fontisto_paw.png" alt="footprint of dog" id="footprint">
+            <div class="position-absolute top-0 start-0 mt-5 ms-5 w-50">
                 <p class="fw-bold text-start">Adoption</p><br />
                 <p class="fw-semibold text-start">We need help. so do they.</p>
                 <p class="text-start w-75">Adopt a pet and give it a home,
-                    it will be love you back unconditionally.</p>
-                <div class="d-inline float-start">
+                    it will be love you back unconditionally. Please let do this today with us!</p>
+                <div class="d -inline float-start">
                     <button class="btn rounded-pill text-center fw-bold searchBtn me-2" type="submit" id="">Explore
                         Now</button>
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative " type="submit"
-                        id="view_intro_btn">View Intro
+                        id="view_intro">View Intro
                         <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
                             class="position-absolute"></iconify-icon>
                     </button>
@@ -220,13 +230,14 @@
             <div id="title_section1" class="position-relative">
                 <p class="pt-5 fw-semibold text-capitalize">You already know ?</p>
                 <p class="fw-bold text-capitalize">Useful pet knowledge</p>
-                <span class="mt-5 position-absolute top-0 end-0">
+                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
                     <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
                         id="view_intro_btn">View more
                         <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
                             height="24" class="position-absolute"></iconify-icon>
                     </button>
                 </span>
+                
             </div>
             <div class="row" id="list_of_knowledge">
                 <!-- <div class="col-lg-4 col-md-4 p-2 ">
@@ -239,10 +250,18 @@
                     </div>
                 </div> -->
             </div>
+            <span class="mt-3 w-100 d-block d-sm-none viewmore">
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100 fs-4" type="submit"
+                    id="view_intro_btn">View more
+                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="35"
+                        height="35" class="position-absolute"></iconify-icon>
+                </button>
+            </span>
         </section>
     </main>
     <footer class="position-relative d-flex justify-content-center">
-        <img src="ASSET/Footer.png" alt="Footer banner" id="" class="w-100 mt-5 position-relative" style="top:100px">
+        <img src="ASSET/Footer.png" alt="Footer banner" id="" class="w-100 mt-5 d-none d-sm-block d-md-block d-lg-block " >
+        <img src="ASSET/FooterMo.png" alt="Footer banner" id="" class="w-100 mt-5 d-block d-sx-block d-sm-none" >
         <section class="container bottom-0 mb-3" id="footer">
             <div class="row p-4 rounded mb-4">
                 <div class="col-lg-4 fs-5 fw-bold">Register now so you don't miss our programs!</div>
@@ -255,8 +274,8 @@
                     </form> <!-- End form -->
                 </div>
             </div>
-            <div class="d-flex justify-content-between  mb-4 ">
-                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold">
+            <div class="d-flex justify-content-between mb-4 flex-wrap">
+                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold mt-3 mb-3">
                     <li class="me-5">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -266,11 +285,11 @@
                     <li class="me-5">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="me-5">
+                    <li class="">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <ul class="d-flex justify-content-between a m-0 p-0">
+                <ul class="d-flex justify-content-between a m-0 p-0 mt-3 mb-3">
                     <li class="me-4">
                         <a class="nav-link active" aria-current="page" href="#">
                             <iconify-icon icon="akar-icons:facebook-fill" width="24" height="24"></iconify-icon>
@@ -299,7 +318,7 @@
                     <span>© 2022 Monito. All rights reserved.</span>
                 </div>
                 <div>
-                    <img src="ASSET/Logo.png" alt="Logo" width="130" height="50">
+                    <img src="ASSET/Logo.png" alt="Logo" width="170" height="65">
                 </div>
                 <div class="d-flex justify-content-between">
                     <a class="me-3 nav-link" href="#">Terms of Service</a>
