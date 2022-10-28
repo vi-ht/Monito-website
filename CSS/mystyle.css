@@ -60,7 +60,7 @@ section#banner_content span:nth-child(3) {
 }
 
 #view_intro_btn {
-    background-color: rgba(0, 0, 0, 0)!important;
+    background-color: rgba(0, 0, 0, 0) !important;
     color: var(--blue) !important;
     border: 2px solid var(--blue);
     padding-right: 38px;
@@ -177,10 +177,20 @@ section.adv p:nth-child(3) {
 
 /*Footer design*/
 
-#footer {
-    position: absolute;
-    z-index: 2 !important;
+footer{
+    background-color: var(--yellow) !important;
+    padding-top: 2.5em !important;
+    margin-top: 2.5em !important;
 }
+/* section#footer>div:nth-child(4) {
+    display: block !important;
+    background-color: #00A7E7;
+} */
+
+/* section#footer>div:nth-child(5) {
+    display: none !important;
+    background-color: #00e749;
+} */
 
 section#footer>div:first-child {
     background-color: var(--darkBlue) !important;
@@ -388,6 +398,20 @@ form#searchform {
         width: 40% !important;
     }
 
+    section#footer>div:nth-child(1) {
+
+        margin: 0 !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    section#footer>div:nth-child(2) {
+        margin: 0 !important;
+    }
+
+    /* section#footer>div:nth-child(5) {
+        margin: 0 !important;
+        margin-bottom: 1.5rem !important;
+    } */
 
 }
 
@@ -417,7 +441,7 @@ form#searchform {
 
 }
 
-@media screen and (min-width:762px) and (max-width:992px) {
+@media screen and (min-width:762px) and (max-width:993px) {
 
     #banner_content {
         /* margin-left: 80px !important; */
@@ -445,6 +469,82 @@ form#searchform {
         padding-left: 2em !important;
         padding-right: 2em !important;
     }
+
+    section#footer {
+        width: 96% !important;
+        margin: auto !important;
+    }
+
+    section#footer>div:nth-child(1) {
+        margin: 0 !important;
+        margin-bottom: 1.5rem !important;
+        padding: 15px 5px !important;
+    }
+
+    section#footer>div:nth-child(2) {
+        margin: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* section#footer>div:nth-child(5) {
+        margin: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    section#footer>div:nth-child(5)>div>img {
+        width: 150px !important;
+        height: 45px !important;
+    } */
+
+    section#footer>div:nth-child(2)>ul {
+        margin: 6px !important;
+    }
+
+
+}
+
+@media screen and  (max-width:768px) {
+
+    section#footer>div>div {
+        /* font-size: 1em !important; */
+        padding-bottom: 7px !important;
+        padding-top: 7px !important;
+    }
+    section#footer {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    section#footer>div:nth-child(1) {
+        /* margin: 0 !important;
+        margin-bottom: 1rem !important; */
+        padding: 12px 8px !important;
+    }
+
+    section#footer>div:nth-child(2) {
+
+        display: flex !important;
+        justify-content: center !important;
+    }
+/* 
+    section#footer>div:nth-child(5) {
+        display: none !important;
+    } */
+
+    /* section#footer>div:nth-child(6) {
+        
+    } */
+
+    #hidden_in_mobile {
+        display: none !important;
+    }
+    /* #a{
+        display: block !important;
+    }
+    #b{
+        display: none !important;
+    } */
+
 
 }
 
@@ -483,12 +583,14 @@ form#searchform {
     section.adv p:nth-child(3) {
         font-size: 2.3em !important;
     }
+
     #footprint {
         position: absolute;
         top: 4em;
         left: 16.3em;
     }
 }
+
 @media screen and (min-width:675px) and (max-width:800px) {
 
     /*Adv banner*/
@@ -506,6 +608,7 @@ form#searchform {
     section.adv p:nth-child(4) {
         font-size: 0.85em !important;
     }
+
     #footprint {
         position: absolute;
         top: 4.5em;
@@ -519,7 +622,7 @@ form#searchform {
     /*Adv banner*/
 
     section.adv p:nth-child(1) {
-        
+
         font-size: 2em !important;
         margin-bottom: -0.8em !important;
     }
@@ -532,7 +635,7 @@ form#searchform {
         font-size: 0.9em !important;
     }
 
-    section.adv > div > div {
+    section.adv>div>div {
         display: none !important;
     }
 
@@ -566,16 +669,16 @@ form#searchform {
         width: 100% !important;
     }
 
-    section.adv > div > div {
+    section.adv>div>div {
         float: left !important;
-        
+
     }
 
-    section.adv > div {
+    section.adv>div {
         width: 84% !important;
         margin: 8% !important;
         margin-top: 14vw !important;
-        
+
     }
 
     #footprint {
@@ -641,3 +744,5 @@ form#searchform {
     }
 
 }
+
+/*----------------------------------------------------------------*/
