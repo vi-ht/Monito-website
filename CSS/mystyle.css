@@ -97,6 +97,10 @@ form button {
     width: 40% !important;
 }
 
+#open_nav{
+    border: none !important;
+}
+
 /*Our pets section*/
 
 section>div>p:nth-child(2),

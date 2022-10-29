@@ -95,3 +95,16 @@ window.addEventListener("scroll", function (event) {
     }
 
 });
+document.getElementById("open_btn").style.display = "block";
+document.getElementById("close_btn").style.display = "none";
+function changeIcon(value){
+    if(value === 1){
+        document.getElementById("close_btn").style.display = "block";
+        document.getElementById("open_btn").style.display = "none";
+    }else{
+        document.getElementById("close_btn").style.display = "none";
+        document.getElementById("open_btn").style.display = "block";
+    }
+    
+
+};

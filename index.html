@@ -24,12 +24,15 @@
     <header class="container d-flex justify-content-center bg-success">
         <nav class="container-lg navbar navbar-expand-sm fixed-top top-0 mt-0" id="nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="ASSET/Logo.png" alt="Logo" width="130" height="50"
-                        id="pageLogo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    data-bs-target="#collapsibleNavbar" id="open_nav" class="d-block d-md-none" onclick="changeIcon(1)">
+                    <span class="navbar-toggler-icon" id="open_btn" onclick="changeIcon(2)"></span>
+                    <iconify-icon icon="eva:close-outline" width="33" height="30" id="close_btn" style="color: #726b60;"></iconify-icon>
                 </button>
+                <a class="navbar-brand" class="d-block d-md-none" href="#"><img src="ASSET/LogoFooter.png" alt="Logo" width="140" height="50"
+                    id="pageLogo"></a>
+                <iconify-icon icon="eva:search-fill" class="d-block d-md-none me-2" width="33" height="33"
+                    style="color: #726b60;"></iconify-icon>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav mb-2 mb-lg-0 fw-bold w-100 d-flex">
                         <li class="nav-item me-2">
@@ -108,8 +111,8 @@
             <div class="row" id="list_of_card">
             </div>
             <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100"
-                    type="submit" id="view_intro_btn">View more
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100" type="submit"
+                    id="view_intro_btn">View more
                     <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
                         height="24" class="position-absolute"></iconify-icon>
                 </button>
@@ -172,8 +175,8 @@
                 <img src="ASSET/BrandLogo6.png" alt="Felix logo" class="col-logo-1">
             </div>
             <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100"
-                    type="submit" id="view_intro_btn">View all our seller
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100" type="submit"
+                    id="view_intro_btn">View all our seller
                     <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
                         height="24" class="position-absolute"></iconify-icon>
                 </button>
@@ -217,8 +220,8 @@
             <div class="row" id="list_of_knowledge">
             </div>
             <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100"
-                    type="submit" id="view_intro_btn">View more
+                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative w-100" type="submit"
+                    id="view_intro_btn">View more
                     <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
                         height=24" class="position-absolute"></iconify-icon>
                 </button>
@@ -226,7 +229,7 @@
         </section>
     </main>
     <footer class="rounded-top d-flex justify-content-center ">
-        <section class="container-lg bottom-0 mb-3 d-none d-md-block" id="footer">
+        <section class="container-lg bottom-0 mt-2 mb-3 d-none d-md-block" id="footer">
             <div class="row p-4 rounded mb-4 ">
                 <div class="col-12 col-sm-12 col-md-5 col-lg-4 fs-5 fw-bold ">Register now so you don't miss our
                     programs!</div>
@@ -240,7 +243,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between mb-4">
-                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold mt-3 mb-3">
+                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold mt-2 mb-2">
                     <li class="me-5">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -254,7 +257,7 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <ul class="d-flex justify-content-between a m-0 p-0 mt-3 mb-3" >
+                <ul class="d-flex justify-content-between a m-0 p-0 mt-2 mb-2">
                     <!-- id="hidden_in_mobile" -->
                     <li class="me-4">
                         <a class="nav-link active" aria-current="page" href="#">
@@ -277,7 +280,7 @@
                         </a>
                     </li>
                 </ul>
-                
+
             </div>
             <hr />
             <div class="d-flex flex-row justify-content-between mt-4 mb-3 flex-wrap">
@@ -285,7 +288,7 @@
                     <span>© 2022 Monito. All rights reserved.</span>
                 </div>
                 <div>
-                    <img src="ASSET/Logo.png" alt="Logo" width="170" height="65">
+                    <img src="ASSET/LogoFooter.png" alt="Logo" width="170" height="65">
                 </div>
                 <div class="d-flex justify-content-between">
                     <a class="me-3 nav-link" href="#">Terms of Service</a>
@@ -347,7 +350,7 @@
             <hr />
             <div class="row mt-2 mb-3 w-100 ">
                 <div class="col-12 d-flex justify-content-center">
-                    <img src="ASSET/Logo.png" alt="Logo" width="170" height="65">   
+                    <img src="ASSET/LogoFooter.png" alt="Logo" width="140" height="45">
                 </div>
                 <div class="col-12 text-center">
                     <span>© 2022 Monito. All rights reserved.</span>
