@@ -97,9 +97,10 @@ form button {
     width: 40% !important;
 }
 
-#open_nav{
+#open_nav, #open_nav:clicked{
     border: none !important;
 }
+
 
 /*Our pets section*/
 
