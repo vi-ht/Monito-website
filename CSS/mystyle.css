@@ -86,6 +86,7 @@ li>a {
 .searchBtn {
     background-color: var(--blue) !important;
     color: var(--white) !important;
+    border: 2px solid var(--blue);
 }
 
 form input {
@@ -177,20 +178,11 @@ section.adv p:nth-child(3) {
 
 /*Footer design*/
 
-footer{
+footer {
     background-color: var(--yellow) !important;
     padding-top: 2.5em !important;
     margin-top: 2.5em !important;
 }
-/* section#footer>div:nth-child(4) {
-    display: block !important;
-    background-color: #00A7E7;
-} */
-
-/* section#footer>div:nth-child(5) {
-    display: none !important;
-    background-color: #00e749;
-} */
 
 section#footer>div:first-child {
     background-color: var(--darkBlue) !important;
@@ -486,16 +478,6 @@ form#searchform {
         margin-bottom: 1rem !important;
     }
 
-    /* section#footer>div:nth-child(5) {
-        margin: 0 !important;
-        margin-bottom: 1rem !important;
-    }
-
-    section#footer>div:nth-child(5)>div>img {
-        width: 150px !important;
-        height: 45px !important;
-    } */
-
     section#footer>div:nth-child(2)>ul {
         margin: 6px !important;
     }
@@ -503,13 +485,14 @@ form#searchform {
 
 }
 
-@media screen and  (max-width:768px) {
+@media screen and (max-width:768px) {
 
     section#footer>div>div {
         /* font-size: 1em !important; */
         padding-bottom: 7px !important;
         padding-top: 7px !important;
     }
+
     section#footer {
         width: 90% !important;
         margin: auto !important;
@@ -526,25 +509,6 @@ form#searchform {
         display: flex !important;
         justify-content: center !important;
     }
-/* 
-    section#footer>div:nth-child(5) {
-        display: none !important;
-    } */
-
-    /* section#footer>div:nth-child(6) {
-        
-    } */
-
-    #hidden_in_mobile {
-        display: none !important;
-    }
-    /* #a{
-        display: block !important;
-    }
-    #b{
-        display: none !important;
-    } */
-
 
 }
 
@@ -688,30 +652,33 @@ form#searchform {
     }
 
 }
+
 @media screen and (max-width:420px) {
 
     /*Adv banner*/
 
     section.adv p:nth-child(1) {
-        text-align: left !important;
-        font-size: 2em !important;
+        text-align: center !important;
+        font-size: 2.2em !important;
         margin-bottom: -0.8em !important;
         /* line-height:  !important; */
     }
 
     section.adv p:nth-child(3) {
-        text-align: left !important;
+        text-align: center !important;
         font-size: 1.7em !important;
     }
 
     section.adv p:nth-child(4) {
-        text-align: left !important;
+        text-align: center !important;
         font-size: 0.9em !important;
         width: 100% !important;
     }
 
     section.adv>div>div {
-        float: left !important;
+        width: 90% !important;
+        margin-left: 8% !important;
+        margin-right: 2% !important;
 
     }
 
@@ -724,6 +691,7 @@ form#searchform {
 
 
 }
+
 /* Responsive for device has the width less than 885px*/
 
 @media screen and (max-width:920px) {
@@ -777,6 +745,16 @@ form#searchform {
 
     section#banner_content>p {
         margin-bottom: 0 !important;
+    }
+
+    section#footer>div>div:nth-child(2)>form>input {
+
+        width: 50% !important;
+    }
+
+    section#footer>div>div:nth-child(2)>form>button {
+
+        width: 50% !important;
     }
 
 }
