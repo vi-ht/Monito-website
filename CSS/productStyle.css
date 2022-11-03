@@ -1,0 +1,46 @@
+/* Global color */
+:root {
+    --blue: #103559;
+    --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
+    --gray: #667479;
+    --red: #FF564F;
+    --apricot: #FFB672;
+}
+
+/*Background of nav bar*/
+#bg-nav1 {
+    background-color: var(--yellow) !important;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
+    transition: 0.4s;
+}
+
+/* filter design*/
+section.adv>div>p {
+    color: var(--blue) !important;
+}
+
+/* div#filter>h2,
+div#pets_list>div>h2,
+div#filter>div>h4 {
+    
+} */
+
+#title {
+    color: var(--blue) !important;
+}
+
+#total {
+    color: var(--gray) !important;
+    font-size: 0.6em !important;
+    margin-left: 5px;
+
+}

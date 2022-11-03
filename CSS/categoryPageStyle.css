@@ -30,13 +30,13 @@ section.adv>div>p {
 div#filter>h2,
 div#pets_list>div>h2,
 div#filter>div>h4 {
-    color: var(--blue);
+    color: var(--blue) !important;
 }
 
 div#pets_list>div>h2>span {
-    font-size: initial !important;
     color: var(--gray) !important;
     font-size: 0.6em !important;
+    margin-left: 5px;
 }
 
 .form-check {
@@ -55,9 +55,9 @@ div#filter>div>div {
     left: 3.5rem !important;
 }
 
-#input-max{
+/* #input-max{
     left: -8px !important;
-}
+} */
 
 /*Color picker - semi-round shape*/
 #semi-round {
