@@ -1,0 +1,124 @@
+/* Global color */
+:root {
+    --blue: #103559;
+    --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
+    --gray: #667479;
+    --red: #FF564F;
+    --apricot: #FFB672;
+}
+
+/*Background of nav bar*/
+#bg-nav1 {
+    background-color: var(--yellow) !important;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
+    transition: 0.4s;
+}
+
+/* filter design*/
+section.adv>div>p {
+    color: var(--white) !important;
+}
+div#filter>h2,
+div#pets_list>div>h2,
+div#filter>div>h4 {
+    color: var(--blue);
+}
+
+div#pets_list>div>h2>span {
+    font-size: initial !important;
+    color: var(--gray) !important;
+    font-size: 0.6em !important;
+}
+
+.form-check {
+    margin-bottom: 0.6em;
+}
+
+div#filter>div>div {
+    font-size: 1.1em !important;
+}
+.color {
+    top: 3px !important;
+    left: 3px !important;
+}
+
+.color-text {
+    left: 3.5rem !important;
+}
+
+#input-max{
+    left: -8px !important;
+}
+
+/*Color picker - semi-round shape*/
+#semi-round {
+    width: 0px;
+    height: 0px;
+    background-color: #667479;
+    border-right: 10px solid black;
+    border-top: 10px solid lightgray;
+    border-left: 10px solid lightgray;
+    border-bottom: 10px solid black;
+    border-top-left-radius: 10px;
+    transform: rotate(135deg);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*Color picker - round shape*/
+#round {
+    width: 0px;
+    height: 0px;
+    border: 10px solid pink;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Filter button*/
+#filter_btn{
+    background-color: rgba(0,0,0,0) !important;
+    color: var(--blue);
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1), section.adv p:nth-child(3), section.adv p:nth-child(4) {
+        color: var(--blue) !important;
+    }
+    /* section.adv>div {
+        width: 84% !important;
+        margin: 8% !important;
+        margin-top: 5vw !important;
+    } */
+}
+
+@media screen and (max-width:390px) {
+
+    /*Adv banner*/
+
+    section.adv p:nth-child(1), section.adv p:nth-child(3), section.adv p:nth-child(4) {
+        color: var(--blue) !important;
+    }
+    section.adv>div>div {
+        display: none !important;
+    }
+    section.adv>div {
+        width: 84% !important;
+        margin: 8% !important;
+        margin-top: 8vw !important;
+    }
+}
+

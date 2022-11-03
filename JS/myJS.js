@@ -95,6 +95,9 @@ window.addEventListener("scroll", function (event) {
     }
 
 });
+
+
+
 document.getElementById("open_btn").style.display = "block";
 document.getElementById("close_btn").style.display = "none";
 function changeIcon(value){
