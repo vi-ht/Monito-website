@@ -1,5 +1,5 @@
 // data ------------------------------------------------------------
-import { catList, petList, dogList} from "./data.js";
+import { catList, petList, dogList} from "data.js";
 import { changeNav, changeIcon } from "./navbar.js";
 
 // global var -----------------------------------------------------------------
