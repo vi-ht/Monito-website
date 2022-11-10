@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- import customize css -->
     <link href="CSS/mystyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/navbarStyle.css" rel="stylesheet" type="text/css">
     <!-- import icon lib-->
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
@@ -25,7 +26,7 @@
     <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-none d-sm-block d-md-none">
     <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-block d-sm-none">
     <div id="bg-nav"></div>
-    <header class="container d-flex justify-content-center bg-success">
+    <header class="container d-flex justify-content-center">
         <nav class="container-lg navbar navbar-expand-sm fixed-top top-0 mt-0" id="nav">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,7 +44,7 @@
                         <li class="nav-item me-2">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-2 position-relative">
+                        <li class="nav-item me-2 position-relative fw-semibold">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Category
@@ -70,21 +71,19 @@
                                     </li>
                             </ul>
                         </li>
-                        <li class="nav-item me-2">
+                        <li class="nav-item me-2 fw-semibold">
                             <a class="nav-link" href="product.html">Product</a>
                         </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link" href="#">knowledge</a>
+                        <li class="nav-item me-2 fw-semibold">
+                            <a class="nav-link" href="#">Knowledge</a>
                         </li>
                         <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none">
-                            <form class="d-flex position-relative " role="search" id="searchform">
-                                <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2" width="24"
+                            <form class="d-flex position-relative searchform justify-content-between" role="search">
+                                <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2 searchicon" width="24"
                                     height="24" style="color: #667479;"></iconify-icon>
                                 <input class="form-control rounded-pill me-2" style="padding-left: 35px" type="search"
                                     placeholder="Search something here!" aria-label="Search">
-                                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join
-                                    the
-                                    community</button>
+                                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join the community</button>
                             </form>
                             <!-- End form -->
                         </li>
@@ -107,7 +106,7 @@
                 </div> <!-- End div -->
             </div> <!-- End div -->
         </nav> <!-- End nav -->
-        <section class="align-self-start position-absolute top-0 start-0  row" id="banner_content">
+        <section class="container-lg align-self-start position-absolute top-0 start-0 row" id="banner_content">
             <span class="fw-bold">One More Friend</span><br />
             <span class="fw-semibold">Thousands More Fun!</span>
             <p class="col-12">Having a pet means you have more joy, a new friend, a happy person who will always be with

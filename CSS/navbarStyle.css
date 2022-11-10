@@ -1,0 +1,160 @@
+/*Variable*/
+
+:root {
+    --blue: #103559;
+    --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
+}
+
+/*  CSS reset */
+
+* {
+    box-sizing: border-box !important;
+}
+
+/* xs responsive & md responsive*/
+
+.searchform,
+.searchicon {
+    display: none !important;
+}
+
+.searchBtn {
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    border: 2px solid var(--blue);
+}
+
+form input {
+    width: 60% !important;
+}
+
+form button {
+    width: 40% !important;
+}
+
+/*Fixed background of nav when scroll */
+
+#bg-nav {
+    background-color: var(--yellow);
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
+    transition: 0.4s;
+}
+
+/* md responsive*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .searchform>input {
+        display: none !important;
+    }
+
+    .searchform {
+        display: block !important
+    }
+
+    .searchform>button {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 830px) {
+        .searchform {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 870px) and (max-width: 992px) {
+        .searchform>button {
+            display: block !important;
+            width: 80% !important;
+            margin: auto !important;
+        }
+    }
+
+}
+
+/* lg responsive*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    .searchform {
+        display: block !important;
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .searchform>input {
+        display: none !important;
+    }
+
+    .searchform>button {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    @media (min-width: 992px) and (max-width: 1100px) {
+        .searchform>button {
+            width: 70% !important;
+        }
+    }
+
+    @media (min-width: 1100px) and (max-width: 1200px) {
+        .searchform>button {
+            width: 70% !important;
+        }
+    }
+}
+
+/* xl responsive*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .searchform {
+        display: flex !important;
+    }
+
+    .searchicon {
+        display: block !important;
+    }
+}
+
+/* xxl responsive*/
+@media (min-width: 1400px) {
+    .searchform {
+        display: flex !important;
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .searchicon {
+        display: block !important;
+    }
+}
+
+/*Footer design*/
+
+footer {
+    background-color: var(--yellow) !important;
+    padding-top: 2.5em !important;
+    margin-top: 2.5em !important;
+}
+
+#footer>div:first-child {
+    background-color: var(--darkBlue) !important;
+}
+
+footer form {
+    background-color: var(--white) !important;
+}
+
+footer div:first-child>div:first-child {
+    color: var(--white) !important;
+}
+
+footer li {
+    list-style-type: none !important;
+}
