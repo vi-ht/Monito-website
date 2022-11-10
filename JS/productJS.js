@@ -1,5 +1,5 @@
 // data ------------------------------------------------------------
-import { productList } from "../JS/data.js";
+import { productList } from "../data.js";
 import { changeNav, changeIcon } from "../JS/navbar.js";
 // call function ------------------------------------------------------
 window.addEventListener("scroll", changeNav);
