@@ -1,6 +1,6 @@
 // data ------------------------------------------------------------
-import { catList, petList, dogList} from "data.js";
-import { changeNav, changeIcon } from "./navbar.js";
+import { catList, petList, dogList} from "JS/data.js";
+import { changeNav, changeIcon } from "JS/navbar.js";
 
 // global var -----------------------------------------------------------------
 window.addEventListener("scroll", changeNav);
@@ -82,3 +82,4 @@ function addPetToList(value) {
         + '</div>';
     document.getElementById('pets_list').insertAdjacentHTML('beforeend', html);
 }
+
