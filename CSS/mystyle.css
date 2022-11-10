@@ -59,20 +59,7 @@
     padding-right: 38px;
 }
 
-/*Main navbar*/
 
-#nav {
-    background-color: rgba(0, 0, 0, 0) !important;
-}
-
-li>a {
-    color: var(--blue) !important;
-}
-
-#open_nav,
-#open_nav:clicked {
-    border: none !important;
-}
 
 /*Our pets section*/
 
@@ -84,19 +71,19 @@ section#brand>div span {
 }
 
 section>div>p:nth-child(1),
-section#brand>div>p:first-child {
+#brand>div>p:first-child {
     font-size: 1.2em !important;
 }
 
 /*Our pet seller section*/
 
-section#brand>div>p>span:first-child {
+#brand>div>p>span:first-child {
     color: var(--blue);
     font-size: 1.7em !important;
     margin-top: -0.7em;
 }
 
-section#brand>div>p:first-child {
+#brand>div>p:first-child {
     font-size: 1.2em !important;
 }
 

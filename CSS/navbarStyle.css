@@ -35,6 +35,20 @@ form button {
     width: 40% !important;
 }
 
+/*Main navbar*/
+
+#nav {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+li>a {
+    color: var(--blue) !important;
+}
+
+#open_nav,
+#open_nav:clicked {
+    border: none !important;
+}
 /*Fixed background of nav when scroll */
 
 #bg-nav {
