@@ -1,7 +1,7 @@
 // data ------------------------------------------------------------
 
-import { catList, petList, dogList} from "../JS/data.js";
-import { changeNav, changeIcon } from "../JS/navbar.js";
+import { catList, petList, dogList} from "../../JS/data.js";
+import { changeNav, changeIcon } from "../../JS/navbar.js";
 // import { catList, petList, dogList } from "../JS/data.js";
 // import { changeNav, changeIcon } from "../JS/navbar.js";
 
