@@ -10,123 +10,15 @@
     --apricot: #FFB672;
 }
 
-/*Background of nav bar*/
-#bg-nav1 {
-    background-color: var(--yellow) !important;
-    width: 100%;
-    height: 4em;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
-    transition: 0.4s;
-}
-
-/* filter design*/
-section.adv>div>p {
-    color: var(--white) !important;
-}
-#filter>h2,
-#resultPart>div>h2,
-#filter>div>h4 {
+section.adv,
+#title {
     color: var(--blue) !important;
 }
 
-#resultPart>div>h2>span {
-    color: var(--gray) !important;
-    font-size: 0.6em !important;
+#total {
+    color: gray !important;
+    font-size: 1.2rem !important;
     margin-left: 5px;
-}
-
-.form-check {
-    margin-bottom: 0.6em;
-}
-
-div#filter>div>div {
-    font-size: 1.1em !important;
-}
-.color {
-    top: 3px !important;
-    left: 3px !important;
-}
-
-.color-text {
-    left: 3.5rem !important;
-}
-
-/* #input-max{
-    left: -8px !important;
-} */
-
-/*Color picker - semi-round shape*/
-#semi-round {
-    width: 0px;
-    height: 0px;
-    background-color: #667479;
-    border-right: 10px solid black;
-    border-top: 10px solid lightgray;
-    border-left: 10px solid lightgray;
-    border-bottom: 10px solid black;
-    border-top-left-radius: 10px;
-    transform: rotate(135deg);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-/*Color picker - round shape*/
-#round {
-    width: 0px;
-    height: 0px;
-    border: 10px solid pink;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-/* Filter button*/
-#filter_btn{
-    background-color: rgba(0,0,0,0) !important;
-    color: var(--blue);
-    border: none;
-}
-
-
-/*No result icon & image */
-/* sx responsive*/
-#noResultText{
-    text-align: center !important;
-    font-size: 1.1rem;
-    color: var(--blue);
-    font-weight: bold;
-}
-#noResultIcon{
-    width: 100px;
-    height: 92px;
-    margin: auto;
-}
-/* sm-md responsive*/
-
-@media (min-width: 576px) and (max-width: 992px) {
-    #noResultText{
-        font-size: 1.35rem;
-    }
-    #noResultIcon{
-        width: 130px;
-        height: 130px;
-    }
-}
-
-/* lg-xl-xxl responsive*/
-@media (min-width: 992px) {
-    #noResultText{
-        font-size: 1.5rem;
-    }
-    #noResultIcon{
-        width: 150px;
-        height: 150px;
-        margin-top: -7rem;
-    }
 }
 
 @media (min-width: 567px) and (max-width:768px) {
@@ -262,6 +154,3 @@ div#filter>div>div {
         }
     }
 }
-
-
-

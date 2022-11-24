@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <title>Monito - Home page</title>
+    <title>Monito - knowledge</title>
     <meta name="Author" content="Thanh Vi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Monito website">
+    <meta property="og:title" content="Pet category">
     <meta property="og:description" content="Pets for best">
     <meta property="og:url" content="https://vi-ht.github.io/Monito-website/">
     <meta property="og:image" content="ASSET/Preview.png">
@@ -16,78 +16,79 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- import customize css -->
-    <link href="CSS/mystyle.css" rel="stylesheet" type="text/css">
-    <link href="CSS/cardStyle.css" rel="stylesheet" type="text/css">
+    <!-- <link href="CSS/mystyle.css" rel="stylesheet" type="text/css"> -->
     <link href="CSS/navbarStyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/cardStyle.css" rel="stylesheet" type="text/css">
     <link href="CSS/bannerStyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/knowledgePageStyle.css" rel="stylesheet" type="text/css">
     <!-- import icon lib-->
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </head>
 
 <body>
-    <img src="ASSET/HerroBanner.png" alt="Main banner" id="banner" class="d-none d-xl-block d-xxl-block">
-    <img src="ASSET/HerroBannerTab.png" alt="Main banner" id="banner" class="d-none d-md-block d-lg-block d-xl-none">
-    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-none d-sm-block d-md-none">
-    <img src="ASSET/HerroBannerMo.png" alt="Main banner" id="banner" class="d-block d-sm-none">
     <div id="bg-nav"></div>
     <header class="container d-flex justify-content-center">
-        <nav class="container-lg navbar navbar-expand-sm fixed-top top-0 mt-0" id="nav">
+        <nav class="container-lg navbar navbar-expand-sm fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar" id="open_nav" class="d-block d-md-none">
-                    <span class="navbar-toggler-icon" id="open_btn" onclick="changeIcon(1)"></span>
-                    <iconify-icon icon="eva:close-outline" width="38" height="38" onclick="changeIcon(2)" id="close_btn"
+                    <span class="navbar-toggler-icon" id="open_btn"></span>
+                    <iconify-icon icon="eva:close-outline" width="38" height="38" id="close_btn"
                         style="color: #726b60;"></iconify-icon>
                 </button>
-                <a class="navbar-brand" class="d-block d-md-none" href="index.html"><img src="ASSET/LogoFooter.png" alt="Logo"
-                        width="140" height="50" id="pageLogo"></a>
+                <a class="navbar-brand" class="d-block d-md-none" href="index.html"><img src="ASSET/LogoFooter.png"
+                        alt="Logo" width="140" height="50" id="pageLogo"></a>
                 <iconify-icon icon="eva:search-fill" class="d-block d-md-none me-2" width="33" height="33"
                     style="color: #726b60;"></iconify-icon>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav mb-2 mb-lg-0 fw-bold w-100 d-flex">
-                        <li class="nav-item me-2">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item me-2 fw-semibold">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-2 position-relative fw-semibold">
+                        <li class="nav-item me-2 position-relative  fw-semibold">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Category
                             </a>
                             <ul class="dropdown-menu position-absolute">
                                 <li><a class="dropdown-item " href="category.html?category=dog">
-                                        <iconify-icon icon="fluent-emoji-flat:dog-face" width="24" height="24" class="position-relative" style="top:7px">
+                                        <iconify-icon icon="fluent-emoji-flat:dog-face" width="24" height="24"
+                                            class="position-relative" style="top:7px">
                                         </iconify-icon>
                                         <span class="ms-2">Dog</span>
                                     </a></li>
                                 <li><a class="dropdown-item" href="category.html?category=cat">
-                                        <iconify-icon icon="fluent-emoji-flat:cat-face" width="24" height="24" class="position-relative" style="top:4.5px">
+                                        <iconify-icon icon="fluent-emoji-flat:cat-face" width="24" height="24"
+                                            class="position-relative" style="top:4.5px">
                                         </iconify-icon>
                                         <span class="ms-2">Cat</span>
                                     </a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="category.html?category=pet">
-                                            <iconify-icon icon="dashicons:pets" width="24" height="24" class="position-relative" style="top:4.5px"></iconify-icon>
-                                            <span class="ms-2">Other pets</span>
-                                        </a>
-                                    </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="category.html?category=pet">
+                                        <iconify-icon icon="dashicons:pets" width="24" height="24"
+                                            class="position-relative" style="top:4.5px"></iconify-icon>
+                                        <span class="ms-2">Other pets</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item me-2 fw-semibold">
                             <a class="nav-link" href="product.html">Product</a>
                         </li>
-                        <li class="nav-item me-2 fw-semibold">
+                        <li class="nav-item me-2 ">
                             <a class="nav-link" href="knowledge.html">Knowledge</a>
                         </li>
                         <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none">
                             <form class="d-flex position-relative searchform justify-content-between" role="search">
-                                <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2 searchicon" width="24"
-                                    height="24" style="color: #667479;"></iconify-icon>
+                                <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2 searchicon"
+                                    width="24" height="24" style="color: #667479;"></iconify-icon>
                                 <input class="form-control rounded-pill me-2" style="padding-left: 35px" type="search"
                                     placeholder="Search something here!" aria-label="Search">
-                                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join the community</button>
+                                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join the
+                                    community</button>
                             </form>
                             <!-- End form -->
                         </li>
@@ -106,120 +107,25 @@
                 </div> <!-- End div -->
             </div> <!-- End div -->
         </nav> <!-- End nav -->
-        <section class="container-lg align-self-start position-absolute top-0 start-0 row" id="banner_content">
-            <span class="fw-bold">One More Friend</span><br />
-            <span class="fw-semibold">Thousands More Fun!</span>
-            <p class="col-12">Having a pet means you have more joy, a new friend, a happy person who will always be with
-                you
-                to have
-                fun. We have 200+ different pets that can meet your needs!</p>
-            <div class="d-inline mt-3">
-                <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
-                    id="view_intro">View Intro
-                    <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
-                        class="position-absolute"></iconify-icon>
-                </button>
-                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit" id="">Explore Now</button>
-            </div>
-        </section>
     </header> <!-- End header -->
-    <main class="container-lg ">
-        <section id="ourPets">
-            <div id="title_section1" class="position-relative">
-                <p class="pt-5 fw-semibold">What's new?</p>
-                <p class="fw-bold">Take A Look At Some Of Our Pets</p>
-                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
-                    <button class="btn rounded-pill text-center fw-bold position-relative me-2 view_intro_btn" type="submit"
-                        id=""><a href="category.html?category=dog">View more</a> 
-                        <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                            height="24" class="position-absolute"></iconify-icon>
-                    </button>
-                </span>
-            </div>
-            <div class="row" id="list_of_card">
-            </div>
-            <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold position-relative w-100 view_intro_btn" type="submit"
-                    id="">View more
-                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                        height="24" class="position-absolute"></iconify-icon>
-                </button>
-            </span>
+    <main class="container-lg pt-5">
+        <section class="mt-5">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active "><a href="index.html" class="breadcrumb-style">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page" id="category"><a href="knowledge.html" class="breadcrumb-style">Pet's knowledge</a></li>
+                </ol>
+            </nav>
         </section>
-        <section class="mt-5 position-relative adv">
-            <img src="ASSET/Banner.png" atl="advertisment banner" class="w-100 d-none d-lg-block"></img>
-            <img src="ASSET/BannerTab.png" atl="advertisment banner"
+        <section class="mt-2 position-relative adv">
+            <img src="ASSET/KnowledgeBanner.png" atl="advertisment banner" class="w-100 d-none d-lg-block"></img>
+            <img src="ASSET/KnowledgeBannerTab.png" atl="advertisment banner"
                 class="w-100 d-none d-sm-block d-md-block d-lg-none"></img>
-            <img src="ASSET/BannerMo.png" atl="advertisment banner" class="w-100 d-block d-sm-none"></img>
-            <div class="position-absolute top-0 end-0 w-50 mt-5 me-5">
-                <p class="fw-bold text-end">One More Friend</p><br />
-                <p class="fw-semibold text-end">Thousands More Fun!</p>
-                <p class="text-end w-75 float-end">Having a pet means you have more joy, a new friend, a happy person
-                    who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
-                <div class="d-inline float-end">
-                    <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2" type="submit"
-                        id="view_intro">View Intro
-                        <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
-                            class="position-absolute"></iconify-icon>
-                    </button>
-                    <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit" id="">Explore
-                        Now</button>
-                </div>
-            </div>
-        </section>
-        <section id="ourProducts" class="d-none d-sm-block">
-            <div id="title_section1" class="position-relative">
-                <p class="pt-5 fw-semibold">Hard to choose right products for your pets?</p>
-                <p class="fw-bold">Our Products</p>
-                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
-                    <button class="btn rounded-pill text-center fw-bold position-relative me-2 view_intro_btn" type="submit"
-                        id=""><a href="product.html">View more</a>
-                        <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                            height="24" class="position-absolute"></iconify-icon>
-                    </button>
-                </span>
-            </div>
-            <div class="row" id="list_of_product">
-            </div>
-        </section>
-        <section id="brand">
-            <div class="position-relative">
-                <p class="pt-5 fw-semibold">Proud to be part of <span class="fw-bold">Pet Seller</span></p>
-                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
-                    <button class="btn rounded-pill text-center fw-bold position-relative me-2 view_intro_btn" type="submit"
-                        id=""><a href="category.html?category=dog">View all our seller</a>
-                        <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                            height="24" class="position-absolute"></iconify-icon>
-                    </button>
-                </span>
-            </div>
-            <div id="logoList" class="row d-flex justify-content-center">
-                <img src="ASSET/BrandLogo.png" alt="Predigree logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo1.png" alt="Sheba logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo2.png" alt="Whiskas logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo3.png" alt="Barkers logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo4.png" alt="Good boy logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo5.png" alt="Butcher's logo" class="col-logo-1">
-                <img src="ASSET/BrandLogo6.png" alt="Felix logo" class="col-logo-1">
-            </div>
-            <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold position-relative w-100 view_intro_btn" type="submit"
-                    id=""><a href="category.html?category=dog">View all our seller</a>
-                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                        height="24" class="position-absolute"></iconify-icon>
-                </button>
-            </span>
-        </section>
-        <section class="mt-5 position-relative adv d-none d-sm-block">
-            <img src="ASSET/BannerAdopt.png" atl="advertisment banner" class="w-100 d-none d-lg-block"></img>
-            <img src="ASSET/BannerAdoptTab.png" atl="advertisment banner"
-                class="w-100 d-none d-sm-block d-md-block d-lg-none"></img>
-            <img src="ASSET/fontisto_paw.png" alt="footprint of dog" id="footprint">
-            <div class="position-absolute top-0 start-0 mt-5 ms-5 w-50">
-                <p class="fw-bold text-start">Adoption</p><br />
-                <p class="fw-semibold text-start">We need help. so do they.</p>
-                <p class="text-start w-75">Adopt a pet and give it a home,
-                    it will be love you back unconditionally. Please let do this today with us!</p>
+            <img src="ASSET/KnowledgeBannerMo.png" atl="advertisment banner" class="w-100 d-block d-sm-none"></img>
+            <div class="position-absolute top-0 start-0 mt-5 ms-5 w-50  d-none d-sm-block">
+                <p class="fw-bold text-start">Pet's knowledge</p><br />
+                <p class="fw-semibold text-start">Love your pet!</p>
+                <p class="text-start w-75">The animals need to be taken care of carefully. Learning to live responsibly with animals will help each person live more responsible for themselves.</p>
                 <div class="d -inline float-start">
                     <button class="btn rounded-pill text-center fw-bold searchBtn me-2" type="submit" id="">Explore
                         Now</button>
@@ -228,32 +134,37 @@
                         <iconify-icon icon="bi:play-circle" style="color: #103559; right: 7px;" width="24" height="24"
                             class="position-absolute"></iconify-icon>
                     </button>
-
                 </div>
             </div>
         </section>
-        <section id="petKnowledge">
-            <div id="title_section1" class="position-relative">
-                <p class="pt-5 fw-semibold text-capitalize">You already know ?</p>
-                <p class="fw-bold text-capitalize">Useful pet knowledge</p>
-                <span class="mt-5 position-absolute top-0 end-0 d-none d-sm-block">
-                    <button class="btn rounded-pill text-center fw-bold position-relative me-2 view_intro_btn" type="submit"
-                        id=""><a href="knowledge.html">View more</a>
-                        <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                            height="24" class="position-absolute"></iconify-icon>
-                    </button>
-                </span>
-
+        <section class="row mt-4">
+            <!-- <div class="col-12 col-md-9 col-lg-9 row position-relative ms-1" id="list_of_product">
+                <div>
+                    <h2 class="fw-semibold mb-3" id="title">Pet's products<span id="total"></span></h2>
+                    <span class="position-absolute top-0 end-0 me-2 d-none d-md-block">
+                        <button class="btn rounded-pill text-center fw-semibold searchBtn position-relative me-2 view_intro_btn"
+                            type="submit" id="">Sort by: Popular
+                            <iconify-icon icon="ant-design:caret-down-outlined"
+                                style="color: #103559; right: 9px; top:9px" width="21" height="21"
+                                class="position-absolute"></iconify-icon>
+                        </button>
+                    </span>
+                </div>
+            </div> -->
+            <div class="col-12  row position-relative ms-1 d-flex align-items-start" id="list_of_knowledge">
+                <div class="col-12 mb-0">
+                    <h2 class="fw-semibold mb-3" id="title">Pet's knowledge<span id="total"></span></h2>
+                    <span class="position-absolute top-0 end-0 me-2 d-none d-md-block">
+                        <button class="btn rounded-pill text-center fw-semibold searchBtn position-relative me-2 view_intro_btn"
+                            type="submit" id="">Sort by: Popular
+                            <iconify-icon icon="ant-design:caret-down-outlined"
+                                style="color: #103559; right: 9px; top:9px" width="21" height="21"
+                                class="position-absolute"></iconify-icon>
+                        </button>
+                    </span>
+                </div>
+                <div class="col-12 row  ms-1 align-self-start" id="list_of_product"></div>
             </div>
-            <div class="row" id="list_of_knowledge">
-            </div>
-            <span class="mt-3 w-100 d-block d-sm-none viewmore">
-                <button class="btn rounded-pill text-center fw-bold  position-relative w-100 view_intro_btn" type="submit"
-                    id="">View more
-                    <iconify-icon icon="ic:round-navigate-next" style="color: #103559; right: 7px;" width="24"
-                        height=24" class="position-absolute"></iconify-icon>
-                </button>
-            </span>
         </section>
     </main>
     <footer class="rounded-top d-flex justify-content-center ">
@@ -332,7 +243,8 @@
                     <form class="d-flex p-2 rounded row" role="search">
                         <input class="col-12 form-control me-2 p-2 w-100 mb-2" type="search"
                             placeholder="Enter your mail..." aria-label="Search">
-                        <button class="col-12 btn text-center fw-bold searchBtn text-capitalize p-2 w-100" type="submit">Subcribe
+                        <button class="col-12 btn text-center fw-bold searchBtn text-capitalize p-2 w-100"
+                            type="submit">Subcribe
                             now</button>
                     </form> <!-- End form -->
                 </div>
@@ -390,7 +302,7 @@
             </div>
         </section>
     </footer>
-    <script src="/JS/myJS.js" type="module"></script>
+    <script src="/JS/knowledgeJS.js" type="module"></script>
 </body>
 
 </html>

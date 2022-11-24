@@ -1,0 +1,70 @@
+/*Variable*/
+
+:root {
+    --blue: #103559;
+    --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
+}
+
+/*Card design*/
+
+.card-style {
+    background-color: white ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.087), 0 6px 20px 0 rgba(0, 0, 0, 0.087);
+}
+    
+.card-style:hover{
+    background-color: var(--yellow);
+    transition: 0.3s;
+}
+
+.dog-name {
+    font-size: 1em;
+}
+
+.dog-info {
+    font-size: 0.85em !important;
+    color: gray;
+    margin-bottom: 10px !important;
+}
+
+#present_tag {
+    background-color: #FCEED5;
+}
+
+#present_tag>span {
+    bottom: 7px;
+    font-size: 0.9em;
+    color: var(--blue);
+}
+
+#list_of_knowledge h5:first-child>span {
+    background-color: var(--lightBlue) !important;
+}
+
+.view_intro_btn, #clear_btn {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: var(--blue) !important;
+    text-decoration: none !important;
+    border: 2px solid var(--blue);
+    padding-right: 38px;
+}
+.view_intro_btn>a{
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+.view_intro_btn:hover, #clear_btn:hover {
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    border: 2px solid var(--white);
+    transition: 0.3s;
+}
+
+#view_intro {
+    background-color: var(--yellow) !important;
+    color: var(--blue) !important;
+    border: 2px solid var(--blue);
+    padding-right: 38px;
+}

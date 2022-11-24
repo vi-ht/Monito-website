@@ -1,0 +1,93 @@
+/*Variable*/
+
+:root {
+    --blue: #103559;
+    --white: #ffffff;
+    --yellow: #FCEED5;
+    --lightBlue: #00A7E7;
+    --darkBlue: #003459;
+}
+
+/*The way to calculate height and width of element*/
+
+* {
+    box-sizing: border-box !important;
+}
+
+/* banner style */
+
+#banner {
+    width: 100%;
+    height: 400px;
+    background-color: var(--yellow);
+    overflow: hidden;
+    border-radius: 1.2rem;
+
+}
+
+#knowledge-image {
+    object-fit: cover;
+    object-position: 100% 70%;
+    width: 100%;
+    height: 600px;
+}
+
+#knowledge-title {
+    color: var(--blue);
+}
+
+.navbar-brand {
+    color: var(--blue) !important;
+    font-weight: bold !important;
+    font-size: 1.4rem;
+}
+
+#knowledge-data p,
+#knowledge-data>ul>li {
+    font-size: 1.1rem;
+}
+
+#knowledge-mark>a {
+    font-size: 1.1rem;
+}
+
+#knowledge-data>h3,
+#knowledge-data h4 {
+    color: var(--blue);
+}
+
+
+#knowledge-child{
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    #knowledge-data {
+        height: 80vh;
+        overflow-y: auto;
+    }
+
+    .nav-pills>a.active {
+        color: var(--blue) !important;
+        font-weight: 500 !important;
+        background-color: #fab847 !important;
+        width: 97%;
+    }
+    
+    .nav-pills>a {
+        color: var(--blue) !important;
+    }
+
+    #navbar-example3 {
+        background-color: var(--yellow) !important;
+        height: 80vh !important;
+    }
+    
+    #knowledge-mark {
+        background-color: var(--yellow) !important;
+        height: 90% !important;
+        width: 100% !important;
+        overflow-y: auto;
+    }
+    
+}

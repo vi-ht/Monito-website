@@ -8,11 +8,30 @@
     --darkBlue: #003459;
 }
 
+/* set color for selection */
+
+::selection {
+    color: #000000;
+    background-color: var(--yellow);
+}
+
 /*  CSS reset */
 
 * {
     box-sizing: border-box !important;
 }
+
+/*  breadcrumb style */
+
+.breadcrumb-style {
+    text-decoration: none !important;
+}
+.breadcrumb-style:hover {
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+
 
 /* xs responsive & md responsive*/
 
@@ -49,6 +68,7 @@ li>a {
 #open_nav:clicked {
     border: none !important;
 }
+
 /*Fixed background of nav when scroll */
 
 #bg-nav {
@@ -171,4 +191,39 @@ footer div:first-child>div:first-child {
 
 footer li {
     list-style-type: none !important;
+}
+
+.nav-item > a:hover{
+    color: #fab847 !important;
+}
+
+/* custome scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fab847;
+    border-radius: 5px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--blue); 
+  }
+
+  .col-logo-1 {
+    width: 14.28%;
+}
+
+img[class^="col-logo-"] {
+    float: left;
+    padding: 5px;
 }

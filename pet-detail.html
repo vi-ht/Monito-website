@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="Author" content="Thanh Vi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pet category">
+    <meta property="og:description" content="Pets for best">
+    <meta property="og:url" content="https://vi-ht.github.io/Monito-website/">
+    <meta property="og:image" content="ASSET/Preview.png">
+    <!-- Monito favicon-->
+    <link rel="icon" type="image/x-icon" href="ASSET/SadDog.png">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- import customize css -->
+    <!-- <link href="CSS/mystyle.css" rel="stylesheet" type="text/css"> -->
+    <link href="CSS/navbarStyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/cardStyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/pet-detailStyle.css" rel="stylesheet" type="text/css">
+    <!-- import icon lib-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div id="bg-nav"></div>
+    <header class="container d-flex justify-content-center">
+        <nav class="container-lg navbar navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar" id="open_nav" class="d-block d-md-none">
+                    <span class="navbar-toggler-icon" id="open_btn"></span>
+                    <iconify-icon icon="eva:close-outline" width="38" height="38" id="close_btn"
+                        style="color: #726b60;"></iconify-icon>
+                </button>
+                <a class="navbar-brand" class="d-block d-md-none" href="index.html"><img src="ASSET/LogoFooter.png"
+                        alt="Logo" width="140" height="50" id="pageLogo"></a>
+                <iconify-icon icon="eva:search-fill" class="d-block d-md-none me-2" width="33" height="33"
+                    style="color: #726b60;"></iconify-icon>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fw-bold w-100 d-flex">
+                        <li class="nav-item me-2 fw-semibold">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-2 position-relative">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu position-absolute">
+                                <li><a class="dropdown-item " href="category.html?category=dog">
+                                        <iconify-icon icon="fluent-emoji-flat:dog-face" width="24" height="24"
+                                            class="position-relative" style="top:7px">
+                                        </iconify-icon>
+                                        <span class="ms-2">Dog</span>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="category.html?category=cat">
+                                        <iconify-icon icon="fluent-emoji-flat:cat-face" width="24" height="24"
+                                            class="position-relative" style="top:4.5px">
+                                        </iconify-icon>
+                                        <span class="ms-2">Cat</span>
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="category.html?category=pet">
+                                        <iconify-icon icon="dashicons:pets" width="24" height="24"
+                                            class="position-relative" style="top:4.5px"></iconify-icon>
+                                        <span class="ms-2">Other pets</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-2 fw-semibold">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item me-2 fw-semibold">
+                            <a class="nav-link" href="knowledge.html">Knowledge</a>
+                        </li>
+                        <li class="nav-item me-2 w-100 flex-grow-1 d-sx-none">
+                            <form class="d-flex position-relative searchform justify-content-between" role="search">
+                                <iconify-icon icon="eva:search-fill" class="position-absolute mt-2 ms-2 searchicon"
+                                    width="24" height="24" style="color: #667479;"></iconify-icon>
+                                <input class="form-control rounded-pill me-2" style="padding-left: 35px" type="search"
+                                    placeholder="Search something here!" aria-label="Search">
+                                <button class="btn rounded-pill text-center fw-bold searchBtn" type="submit">Join the
+                                    community</button>
+                            </form>
+                            <!-- End form -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <iconify-icon icon="circle-flags:uk"></iconify-icon>
+                                <span class="ms-2">English</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">
+                                        <iconify-icon icon="circle-flags:uk"></iconify-icon><span
+                                            class="ms-2">English</span>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <iconify-icon icon="emojione:flag-for-vietnam"></iconify-icon><span
+                                            class="ms-2">Vietnamese</span>
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- End div -->
+            </div> <!-- End div -->
+        </nav> <!-- End nav -->
+    </header> <!-- End header -->
+    <main class="container-lg pt-5 ">
+        <section class="row mt-5 position-relative">
+            <section class="col-12 col-lg-6" id="left">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-block d-lg-none">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active "><a href="index.html" class="breadcrumb-style">Home</a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page" id="category"><a href="knowledge.html"
+                                class="breadcrumb-style">Category</a></li>
+                        <li class="breadcrumb-item category-name" aria-current="page" id="">Dog</li>
+                        <li class="breadcrumb-item pet-name" aria-current="page" id="">Pomeranian White</li>
+                    </ol>
+                </nav>
+                <div id="image-container" class="">
+                    <img src="" alt="pet image" id="pet-image">
+                </div>
+                <div id="vi" class="position-relative">
+                    <div id="preview-container" class=" mt-3 d-flex flex-row flex-nowrap">
+                        <!-- preview images-->
+                    </div>
+                    <div class="position-absolute button-container" style="top:2.8rem;right:1rem" id="next">
+                        <iconify-icon icon="ic:round-navigate-next" width="45" height="45" style="color: #103559">
+                        </iconify-icon>
+                    </div>
+                    <div class="position-absolute button-container" style="top:2.8rem;left:1rem" id="pre">
+                        <iconify-icon icon="ic:round-navigate-before" width="45" height="45" style="color: #103559">
+                        </iconify-icon>
+                    </div>
+                </div>
+                <div id="info-container" class="rounded mt-3 row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xxl-6 mt-3">
+                        <img src="/ASSET/pet-icon.png" alt="pet icon" style="width:30px; height:30px">
+                        <span>100% health guarantee for pets</span>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xxl-6 mt-3">
+                        <img src="/ASSET/pet-heart-icon.png" alt="pet icon " style="width:30px; height:30px">
+                        <span>100% guarantee of pet identification</span>
+                    </div>
+                </div>
+                <div id="social-container" class="mt-3">
+                    <ul class="d-flex justify-content-start position-relative" style="left: -1.6rem">
+                        <li class="" style="list-style-type: none; margin-right: 3.7rem;">
+                            <iconify-icon icon="ph:share-network-bold" width="24" height="24" style="color: #103559;">
+                            </iconify-icon>
+                            <span class="position-absolute fw-semibold" style="top: 0; margin-left: 5px;">Share: </span>
+                        </li>
+                        <li class="me-3" style="list-style-type: none;">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <iconify-icon icon="akar-icons:facebook-fill" width="24" height="24"></iconify-icon>
+                            </a>
+                        </li>
+                        <li class="me-3" style="list-style-type: none;">
+                            <a class="nav-link" href="#">
+                                <iconify-icon icon="akar-icons:twitter-fill" width="24" height="24"></iconify-icon>
+                            </a>
+                        </li>
+                        <li class="me-3" style="list-style-type: none;">
+                            <a class="nav-link" href="#">
+                                <iconify-icon icon="akar-icons:instagram-fill" width="24" height="24"></iconify-icon>
+                            </a>
+                        </li>
+                        <li class="me-3" style="list-style-type: none;">
+                            <a class="nav-link" href="#">
+                                <iconify-icon icon="akar-icons:youtube-fill" width="24" height="24"></iconify-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-12 col-lg-6">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-none d-lg-block">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active "><a href="index.html" class="breadcrumb-style">Home</a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page" id="category"><a href="knowledge.html"
+                                class="breadcrumb-style">Category</a></li>
+                        <li class="breadcrumb-item category-name" aria-current="page" id="">Dog</li>
+                        <li class="breadcrumb-item pet-name" aria-current="page" id="">Pomeranian White</li>
+                    </ol>
+                </nav>
+                <section class="">
+                    <h1 class="mb-3 fw-bold" id="pet-title"></h1>
+                    <h3 class="mb-4" id="pet-price"></h3>
+                    <div class="mb-3">
+                        <button class="btn rounded-pill text-center fw-bold searchBtn me-1" type="submit" id="">Contact
+                            Us</button>
+                        <button class="btn rounded-pill text-center fw-bold searchBtn position-relative me-2"
+                            type="submit" id="view_intro" style="background-color: white !important">Chat with monito
+                            <iconify-icon icon="ph:chat-circle-dots-fill" style="color: #103559; right: 7px; top: 6px"
+                                width="24" height="24" class="position-absolute"></iconify-icon>
+                        </button>
+                    </div>
+                </section>
+                <section class="mt-3">
+                    <div class="row">
+                        <div class="col-5">SKU:</div>
+                        <div class="col-7 pet-value" id="pet-SKU"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Gender:</div>
+                        <div class="col-7 pet-value" id="pet-gender"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Age:</div>
+                        <div class="col-7 pet-value" id="pet-age"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Size:</div>
+                        <div class="col-7 pet-value" id="pet-breed"> 3333</div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Color:</div>
+                        <div class="col-7 pet-value" id="pet-color"> 3333</div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Vaccinated:</div>
+                        <div class="col-7" id="pet-vaccine"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Dewormed:</div>
+                        <div class="col-7" id="pet-deworm"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Cert:</div>
+                        <div class="col-7" id="pet-cert"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Microchip:</div>
+                        <div class="col-7" id="pet-micro"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Location:</div>
+                        <div class="col-7" id="pet-location"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Published Date:</div>
+                        <div class="col-7" id="pet-day"></div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-5">Additional Information:</div>
+                        <div class="col-7" id="pet-note"></div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class="mt-3 mb-4">
+            <div style="font-size: 1.2rem" class="fw-semibold ms-2">Feedback?</div>
+            <h3 class="knowledge-title mb-3 fw-bold mt-0 ms-2">Our lovely customers</h3>
+            <div id="carousel" class="position-relative mb-2 d-flex d-lg-none">
+                <div id="carousel-container">
+                    <!-- <div class="panel-carousel active">
+                        <img class="panel-carousel-image"
+                            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2021%2F02%2F10%2Fdogs-playing-park-getty-0221-2000.jpg"
+                            alt="image">
+                    </div>
+                    <div class="panel-carousel">
+                        <img class="panel-image"
+                            src="https://www.petmeds.org/wp-content/uploads/2012/03/26731698_june2.jpg" alt="image">
+                    </div>
+                    <div class="panel-carousel">
+                        <img class="panel-carousel-image"
+                            src="https://loveandkissespetsitting.net/wp-content/uploads/2019/01/Dog-with-soccer-ball-1080x675.jpg"
+                            alt="image">
+                    </div>
+                    <div class="panel-carousel">
+                        <img class="panel-carousel-image"
+                            src="https://www.sheknows.com/wp-content/uploads/2018/12/mrezxn4xc8h2fdd6iypz.jpeg"
+                            alt="image">
+                    </div>
+                    <div class="panel-carousel">
+                        <img class="panel-carousel-image"
+                            src="https://the18.com/sites/default/files/styles/twitter_card_image/public/feature-images/20200826-The18-Image-Soccer-Dogs.jpg?itok=mIaKt25o"
+                            alt="image">
+                    </div> -->
+
+                </div>
+                <div class="position-absolute button-container" id="next-carousel">
+                    <iconify-icon icon="ic:round-navigate-next" width="50" height="50" style="color: #103559">
+                    </iconify-icon>
+                </div>
+                <div class="position-absolute button-container" id="pre-carousel">
+                    <iconify-icon icon="ic:round-navigate-before" width="50" height="50" style="color: #103559">
+                    </iconify-icon>
+                </div>
+            </div>
+            <div class="mt-3 d-flex d-lg-none" id="carousel-display">
+                <!-- <div class="panel-carousel-display active">
+                </div>
+                <div class="panel-carousel-display">
+                </div>
+                <div class="panel-carousel-display">
+                </div>
+                <div class="panel-carousel-display">
+                </div>
+                <div class="panel-carousel-display">
+                </div> -->
+            </div>
+            <div class="d-none d-lg-flex" id="expand-container">
+                <!-- <div class="panel active">
+                    <img class="panel-image"
+                        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2021%2F02%2F10%2Fdogs-playing-park-getty-0221-2000.jpg"
+                        alt="image">
+                </div>
+                <div class="panel">
+                    <img class="panel-image" src="https://www.petmeds.org/wp-content/uploads/2012/03/26731698_june2.jpg"
+                        alt="image">
+                </div>
+                <div class="panel">
+                    <img class="panel-image"
+                        src="https://loveandkissespetsitting.net/wp-content/uploads/2019/01/Dog-with-soccer-ball-1080x675.jpg"
+                        alt="image">
+                </div>
+                <div class="panel">
+                    <img class="panel-image"
+                        src="https://www.sheknows.com/wp-content/uploads/2018/12/mrezxn4xc8h2fdd6iypz.jpeg" alt="image">
+                </div>
+                <div class="panel">
+                    <img class="panel-image"
+                        src="https://the18.com/sites/default/files/styles/twitter_card_image/public/feature-images/20200826-The18-Image-Soccer-Dogs.jpg?itok=mIaKt25o"
+                        alt="image">
+                </div> -->
+            </div>
+            <div class="mt-3 d-none d-lg-flex" id="expand-display">
+                <!-- <div class="panel-display active">
+                </div>
+                <div class="panel-display">
+                </div>
+                <div class="panel-display">
+                </div>
+                <div class="panel-display">
+                </div>
+                <div class="panel-display">
+                </div> -->
+            </div>
+        </section>
+        <section>
+            <div style="font-size: 1.2rem" class="fw-semibold ms-2">What new?</div>
+            <h3 class="knowledge-title mb-3 fw-bold mt-0 ms-2">See more some puppies</h3>
+            <div class="col-12 row ms-1" id="list_of_pet"></div>
+        </section>
+
+    </main>
+    <footer class="rounded-top d-flex justify-content-center ">
+        <section class="container-lg bottom-0 mt-2 mb-3 d-none d-md-block" id="footer">
+            <div class="row p-3 rounded mb-4 ">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-4 fs-5 fw-bold ">Register now so you don't miss our
+                    programs!</div>
+                <div class="col-12 col-sm-12 col-md-7 col-lg-8 align-self-center ">
+                    <form class="d-flex p-2 rounded " role="search">
+                        <input class="form-control me-2 p-2 " style="padding-left: 35px" type="search"
+                            placeholder="Enter your mail..." aria-label="Search">
+                        <button class=" btn text-center fw-bold searchBtn text-capitalize p-2" type="submit">Subcribe
+                            now</button>
+                    </form> <!-- End form -->
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-3">
+                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold mt-2 mb-2">
+                    <li class="me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="d-flex justify-content-between a m-0 p-0 mt-2 mb-2">
+                    <!-- id="hidden_in_mobile" -->
+                    <li class="me-4">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <iconify-icon icon="akar-icons:facebook-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:twitter-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:instagram-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                    <li class="me-0">
+                        <a class="nav-link" href="#">
+                            <iconify-icon icon="akar-icons:youtube-fill" width="24" height="24"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <hr />
+            <div class="d-flex flex-row justify-content-between mt-4 mb-2 flex-wrap">
+                <div class="">
+                    <span>© 2022 Monito. All rights reserved.</span>
+                </div>
+                <div>
+                    <img src="ASSET/LogoFooter.png" alt="Logo" width="140" height="45">
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a class="me-3 nav-link" href="#">Terms of Service</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+        <section class="container-lg bottom-0 mb-2 d-block d-md-none" id="footer">
+            <div class="row p-3 rounded m-3  ">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-4 fs-5 fw-bold mb-3">Register now so you don't miss our
+                    programs!</div>
+                <div class="col-12 col-sm-12 col-md-7 col-lg-8 align-self-center ">
+                    <form class="d-flex p-2 rounded row" role="search">
+                        <input class="col-12 form-control me-2 p-2 w-100 mb-2" type="search"
+                            placeholder="Enter your mail..." aria-label="Search">
+                        <button class="col-12 btn text-center fw-bold searchBtn text-capitalize p-2 w-100"
+                            type="submit">Subcribe
+                            now</button>
+                    </form> <!-- End form -->
+                </div>
+            </div>
+            <div class="container d-flex justify-content-between mb-3">
+                <ul class="d-flex justify-content-between a  m-0 p-0 fw-bold mt-1 mb-1">
+                    <li class="me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="me-5">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="container d-flex justify-content-center a m-0 p-0 mt-3 mb-1 d-block d-md-none">
+                <li class="me-4">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <iconify-icon icon="akar-icons:facebook-fill" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+                <li class="me-4">
+                    <a class="nav-link" href="#">
+                        <iconify-icon icon="akar-icons:twitter-fill" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+                <li class="me-4">
+                    <a class="nav-link" href="#">
+                        <iconify-icon icon="akar-icons:instagram-fill" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+                <li class="me-0">
+                    <a class="nav-link" href="#">
+                        <iconify-icon icon="akar-icons:youtube-fill" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+            </ul>
+            <hr />
+            <div class="container row ms-2 mt-2 mb-3 w-100 ">
+                <div class="col-12 d-flex justify-content-center mb-2">
+                    <img src="ASSET/LogoFooter.png" alt="Logo" width="125" height="40">
+                </div>
+                <div class="col-12 text-center">
+                    <span>© 2022 Monito. All rights reserved.</span>
+                </div>
+                <div class="d-flex justify-content-center col-12">
+                    <a class="me-3 nav-link" href="#">Terms of Service</a>
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="/JS/pet-detailJS.js" type="module"></script>
+</body>
+
+</html>

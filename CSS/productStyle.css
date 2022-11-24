@@ -44,3 +44,138 @@ div#filter>div>h4 {
     margin-left: 5px;
 
 }
+
+@media (min-width: 567px) and (max-width:768px) {
+    section.adv>div {
+        width: 65%;
+    }
+
+    section.adv>div>div {
+        display: block !important;
+    }
+
+    section.adv p:nth-child(1) {
+        font-size: 2.8em !important;
+        margin-top: 0.5rem;
+        margin-bottom: -0.5em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 2.4em !important;
+        margin-bottom: 0.3em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(4) {
+        font-size: 0.9em !important;
+        width: 100% !important;
+    }
+
+    @media (min-width: 650px) and (max-width: 700px) {
+        section.adv p:nth-child(1) {
+            margin-top: 0.5rem;
+            font-size: 2.4em !important;
+        }
+
+        section.adv p:nth-child(3) {
+            font-size: 2em !important;
+        }
+
+        section.adv p:nth-child(4) {
+            font-size: 0.9em !important;
+
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 650px) {
+        section.adv p:nth-child(1) {
+            margin-top: 0rem;
+            font-size: 2.3em !important;
+        }
+
+        section.adv p:nth-child(3) {
+            font-size: 1.9em !important;
+        }
+
+        section.adv p:nth-child(4) {
+            font-size: 0.8em !important;
+            
+
+        }
+    }
+
+    @media (min-width: 567px) and (max-width: 600px) {
+        section.adv p:nth-child(1) {
+            margin-top: -0.5rem;
+            font-size: 2.3em !important;
+        }
+
+        section.adv p:nth-child(3) {
+            font-size: 1.8em !important;
+        }
+
+        section.adv p:nth-child(4) {
+            font-size: 0.8em !important;
+
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    section.adv>div {
+        width: 65%;
+    }
+
+    section.adv>div>div {
+        display: block !important;
+    }
+
+    section.adv p:nth-child(1) {
+        font-size: 3.5em !important;
+        margin-top: 2rem;
+        margin-bottom: -0.4em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 3em !important;
+        margin-bottom: 0.3em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(4) {
+        font-size: 1.2em !important;
+
+    }
+
+    @media (min-width: 768px) and (max-width: 850px) {
+        section.adv p:nth-child(1) {
+            margin-top: 1.5rem;
+            font-size: 2.8em !important;
+        }
+
+        section.adv p:nth-child(3) {
+            font-size: 2.4em !important;
+        }
+
+        section.adv p:nth-child(4) {
+            font-size: 1.1em !important;
+
+        }
+    }
+
+    @media (min-width: 850px) and (max-width: 900px) {
+        section.adv p:nth-child(1) {
+            font-size: 3em !important;
+        }
+
+        section.adv p:nth-child(3) {
+            font-size: 2.8em !important;
+        }
+    }
+}

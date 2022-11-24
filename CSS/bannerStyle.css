@@ -1,0 +1,90 @@
+/*Adv banner*/
+/*Adv banner*/
+#footprint {
+    position: absolute;
+    top: 4.3em;
+    left: 18em;
+}
+
+
+/* lg responsive*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.adv>div {
+        width: 50%;
+    }
+
+    section.adv>div>div {
+        display: block !important;
+    }
+
+    section.adv p:nth-child(1) {
+        font-size: 2.3em !important;
+        margin-top: -1rem;
+        margin-bottom: -0.8em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 1.8em !important;
+        margin-bottom: 0.25em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(4) {
+        font-size: 0.8em !important;
+
+    }
+}
+
+/* xl responsive*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+    section.adv>div {
+        width: 50%;
+    }
+
+    section.adv>div>div {
+        display: block !important;
+    }
+
+    section.adv p:nth-child(1) {
+        font-size: 2.8em !important;
+        margin-bottom: -0.55em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 2.3em !important;
+        margin-bottom: 0.25em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+}
+
+
+/* xxl responsive*/
+@media (min-width: 1400px) {
+    section.adv>div {
+        width: 50%;
+    }
+
+    section.adv>div>div {
+        display: block !important;
+    }
+
+    section.adv p:nth-child(1) {
+        font-size: 3em !important;
+        margin-bottom: -0.55em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+
+    section.adv p:nth-child(3) {
+        font-size: 2.5em !important;
+        margin-bottom: 0.25em !important;
+        word-spacing: -3px;
+        color: var(--blue);
+    }
+}
