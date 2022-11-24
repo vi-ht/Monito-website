@@ -1,8 +1,8 @@
 // data 
 // import { productList, dogList, knowledgeList } from "../JS/data.js";
 // import { changeNav, changeIcon } from "../JS/navbar.js";
-import { productList, dogList, knowledgeList } from "../Monito-website/JS/data.js";
-import { changeNav, changeIcon } from "/Monito-website/JS/navbar.js";
+import { productList, dogList, knowledgeList } from "/Monito-website/JS/data.js";
+import { changeNav, changeIcon } from "/Monito-website/JS/navbar.js"; //đúng
 // call function -----------------------------------------------------------------
 
 window.addEventListener("scroll", changeNav);
