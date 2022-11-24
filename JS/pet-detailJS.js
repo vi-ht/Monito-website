@@ -48,8 +48,8 @@ function loadDataForMobileCarousel(pet){
     for(let index in feedbackList){
         let container = document.createElement("div");
         let containerDisplay = document.createElement("div");
-        container.className = index === 0? "panel-carousel active" : "panel-carousel";
-        containerDisplay.className = index === 0? "panel-carousel-display active" : "panel-carousel-display";
+        container.className = index == 0? "panel-carousel active" : "panel-carousel";
+        containerDisplay.className = index == 0? "panel-carousel-display active" : "panel-carousel-display";
         let img = document.createElement("img");
         img.className = "panel-carousel-image";
         img.src = feedbackList[index];
