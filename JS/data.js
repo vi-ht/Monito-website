@@ -512,7 +512,6 @@ const knowledgeList =
     },];
 
 export { catList, petList, dogList, productList, knowledgeList };
-
 // main: [
 //     {title: "", content: "", list: "", childContent: [{title: "", content: ""},{title: "", content: ""}]},
 //     {title: "", content: "", list: "", childContent: [{title: "", content: ""},{title: "", content: ""}]},
