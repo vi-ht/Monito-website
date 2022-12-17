@@ -5,23 +5,19 @@ const catList =
     Good body structure.
     With MKA cert and Microchip.
     Father from champion lineage.`,
-        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
-            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
-            "https://media.timeout.com/images/105799745/image.jpg",
-            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
-            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
-            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
-            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
-        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
-            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
-            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
-            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
-            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",
-            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2019/07-08/What+to+Know+About+Mental+Health+Care+and+Dogs+-min.jpg",
-            "https://i.ndtvimg.com/i/2017-10/puppy-650-unsplash_650x400_61507811078.jpg",
-            "https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/02/01/13/roverstockphoto-0.jpg?width=1200",]
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
     },
     {
         id: 2, name: "American Bobtail Cat Breed", gene: "Female", color: "apricot", age: "02 months", price: "3900000", image: "ASSET/Cat1.jpg", breed: "medium", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
@@ -29,58 +25,158 @@ const catList =
     Good body structure.
     With MKA cert and Microchip.
     Father from champion lineage.`,
-        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
-            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",],
-        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
-            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
-            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
-            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
-           ]
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
     },
     {
         id: 3, name: "American Curl Cat Breed", gene: "Male", color: "black", age: "2 months", price: "4000000", image: "ASSET/Cat2.jpg", breed: "medium", location: "Vietnam", vaccine: false, deworm: true, cert: true, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 4, name: "American Short hair Cat", gene: "Male", color: "blackWhite", age: "2 months", price: "8900000", image: "ASSET/Cat3.jpg", breed: "medium", location: "Vietnam", vaccine: true, deworm: false, cert: false, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`, profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 5, name: "Abyssinian Cat", gene: "Male", color: "apricot", age: "2 months", price: "7900000", image: "ASSET/Cat4.jpg", breed: "small", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 6, name: "American Wirehair Cat Breed", color: "apricot", gene: "Male", age: "2 months", price: "9000000", image: "ASSET/Cat5.jpg", breed: "small", location: "Vietnam", vaccine: false, deworm: true, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 7, name: "Bombay Cat", gene: "Male", color: "black", age: "2 months", price: "6500000", image: "ASSET/Cat6.jpg", breed: "small", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 8, name: "Chartreux Cat Breed", gene: "Female", color: "silver", age: "2 months", price: "5000000", image: "ASSET/Cat7.jpg", breed: "small", location: "Vietnam", vaccine: true, deworm: false, cert: false, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`, profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    },
     {
         id: 9, name: "Birman Cat Breed", gene: "Female", color: "tan", age: "2 months", price: "5000000", image: "ASSET/Cat8.jpg", breed: "small", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.` }];
+    Father from champion lineage.`,
+        profileImage: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg",
+            "https://hakaimagazine.com/wp-content/uploads/bird-on-floor-freedom-from-cats.jpg",
+            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg",
+            "https://cdn.britannica.com/25/7125-050-67ACEC3C/Abyssinian-sorrel.jpg",
+            "https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s1100-c50.jpg",
+            "https://img.etimg.com/thumb/msid-93429238,width-650,imgsize-34182,,resizemode-4,quality-100/international-cat-day-2022-all-you-need-to-know-about-date-significance-history.jpg",
+            "https://www.goodnet.org/photos/620x0/32439_hd.jpg",
+            "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/07-23/How+Much+Does+It+Cost+to+Have+a+Cat+_+ASPCA+Pet+Insurance+_+black+cat+with+yellow+eyes+peeking+out-min.jpg",],
+        feedback: ["https://allaboutcats.com/wp-content/uploads/2022/06/playing-with-your-cat.jpg",
+            "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/08/PF2015_034_OrangeCat_LivingRoom-scaled.jpg",
+            "https://image.petmd.com/files/styles/863x625/public/cat-play-time.jpg",
+            "https://allaboutcats.com/wp-content/uploads/2021/10/playing-with-cat.jpg",
+            "https://catspride.com/wp-content/uploads/2016/02/OD-CP-035_CatMattersOriginalContent_Post_6_FINAL.jpg",]
+    }];
 
 const petList =
     [{
@@ -88,7 +184,17 @@ const petList =
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://www.wittemolen.com/sites/default/files/styles/full_width/public/slides/SLIDER-Hamster.jpg?itok=t7h_LCJE",
+            "https://mew.vn/wp-content/uploads/2021/04/danh-muc-chuot-hamster-1.jpg",
+            "https://mew.vn/wp-content/uploads/2021/04/danh-muc-chuot-hamster-2.jpg",
+            "https://www.burgesspetcare.com/wp-content/uploads/2020/02/april-blog-1.webp",
+            "https://photo-cms-tpo.epicdn.me/w890/Uploaded/2022/itmtu/2020_01_31/1_8Js7cOCxnJIGT8Nfrk288g_NBAH.jpeg"],
+        feedback: ["https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hamster-breeds-1648845342.jpg?crop=1.00xw:0.715xh;0,0.107xh&resize=640:*",
+            "https://img.freepik.com/premium-photo/girl-with-hamster-nature-cheerful-happy-child-girl-with-pet-hamster-plays-backyard-th_90380-3233.jpg?w=2000",
+            "https://img.freepik.com/premium-photo/common-white-hamster-held-hand-happy-little-girl-little-girl-holding-little-hamster-hands-friendship-children-animals-concept_369656-2259.jpg?w=2000",
+            "https://lolipet.net/wp-content/uploads/petsmart-hamster-playing-in-wheel.jpg"]
+    },
     {
         id: 2, name: "Hamster robo", gene: "Female", color: "tan", age: "02 months", price: "3900000", image: "ASSET/Pet1.jpg", breed: "small", location: "Vietnam", vaccine: false, deworm: true, cert: false, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
@@ -127,49 +233,169 @@ const dogList =
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 2, name: "Poodle Tiny Yellow", gene: "Female", color: "tan", age: "02 months", price: "3900000", image: "ASSET/Dog2.png", breed: "medium", location: "Vietnam", vaccine: true, deworm: false, cert: true, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 3, name: "Poodle Tiny Sepia", gene: "Male", color: "red", age: "2 months", price: "4000000", image: "ASSET/Dog3.png", breed: "large", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 4, name: "Alaskan Malamute Grey", gene: "Male", color: "silver", age: "2 months", price: "8900000", image: "ASSET/Dog4.png", breed: "large", location: "Vietnam", vaccine: false, deworm: true, cert: false, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.` },
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 5, name: "Pembroke Corgi Cream", gene: "Male", color: "tan", age: "2 months", price: "7900000", image: "ASSET/Dog5.png", breed: "medium", location: "Vietnam", vaccine: false, deworm: false, cert: true, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 6, name: "Pembrole Corgi Tricolor", gene: "Male", color: "blackWhite", age: "2 months", price: "9000000", image: "ASSET/Dog6.png", breed: "small", location: "Vietnam", vaccine: true, deworm: true, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 7, name: "Pomeranian White", gene: "Male", color: "blackWhite", age: "2 months", price: "6500000", image: "ASSET/Dog7.png", breed: "small", location: "Vietnam", vaccine: true, deworm: true, cert: false, micro: true, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`},
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    },
     {
         id: 8, name: "Poodle Tiny Dairy Cow", gene: "Female", color: "blackWhite", age: "2 months", price: "5000000", image: "ASSET/Dog8.png", breed: "small", location: "Vietnam", vaccine: false, deworm: false, cert: true, micro: false, publishDate: "November 23, 2023 16:00:00",
         note: `Pure breed Shih Tzu.
     Good body structure.
     With MKA cert and Microchip.
-    Father from champion lineage.`}];
+    Father from champion lineage.`,
+        profileImage: ["https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*",
+            "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-dog-breeds-lead-1550810849.jpg?crop=0.668xw:1.00xh;0.191xw,0&resize=640:*",
+            "https://media.timeout.com/images/105799745/image.jpg",
+            "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
+            "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=1200,fit=cover/article/main-picture/630896b35c4d5453789502.png",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg",
+            "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/03/GettyImages-512366437-e1583519258231.jpg"],
+        feedback: ["https://images.everydayhealth.com/images/emotional-health/stress/playing-with-a-dog-helps-you-feel-less-stressed-722x406.jpg",
+            "https://www.katalay.net/images/gallery/images/animals/are-dogs-good-for-human-health-1.jpg",
+            "https://www.fuehldichgut.info/wp-content/uploads/2020/10/pexels-freestocksorg-129634.jpg",
+            "https://www.banyanmentalhealth.com/wp-content/uploads/2020/04/pet-addiction-recovery-1200x480.jpg",
+            "https://therecover.com/wp-content/uploads/2020/09/pet-effect-2.jpg",]
+    }];
 
 const productList =
     [{ name: "Reflex Plus Adult Cat Food Salmon", cate: "cat", product: "food", size: "385gm", price: "140000", image: "ASSET/Product1.png", content: "Free Toy & Free Shaker" },

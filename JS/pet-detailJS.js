@@ -84,10 +84,10 @@ function setUpMobileCarousel() {
         changeButton();
     }
     function changeButton() {
-        if (pos <= totalImages && pos > 1) {
+        if (pos < totalImages && pos > 1) {
             document.getElementById("next-carousel").style.display = "block";
             document.getElementById("pre-carousel").style.display = "block";
-        } else if (pos + 1 === totalImages) {
+        } else if (pos === totalImages) {
             document.getElementById("next-carousel").style.display = "none";
             document.getElementById("pre-carousel").style.display = "block";
         } else if (pos === 1) {
