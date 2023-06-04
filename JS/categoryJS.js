@@ -289,7 +289,7 @@ function dividerByCategory() {
         text.id = "noResultText";
         text.className = "col-12";
         var image = document.createElement("img");
-        image.src = "https://github.com/vi-ht/Monito-website/blob/main/ASSET/SadDog.png";
+        image.src = "ASSET/SadDog.png";
         image.alt = "A sad dog";
         image.id = "noResultIcon";
         image.className = "col-12";
