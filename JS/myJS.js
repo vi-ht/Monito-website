@@ -28,7 +28,7 @@ for(let i = 0; i < buttonList.length; i++){
 
 function addDogToList(value) {
     var html =
-        '<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 p-2">'
+        '<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 p-2" style="cursor: pointer">'
         + '<div class="card card-style p-2 dogCard">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
@@ -43,7 +43,7 @@ function addDogToList(value) {
 
 function addProductToList(value) {
     var html =
-        '<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 p-2">'
+        '<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 p-2 " style="cursor: pointer">'
         + '<div class="card card-style p-2">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
@@ -62,7 +62,7 @@ function addProductToList(value) {
 
 function addKnowledgeToList(value) {
     var html =
-        '<div class="col-lg-4 col-md-4 p-2 dogCard">'
+        '<div class="col-lg-4 col-md-4 p-2 dogCard" style="cursor: pointer">'
         + '<div class="card card-style p-2">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'

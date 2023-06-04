@@ -289,7 +289,7 @@ function dividerByCategory() {
         text.id = "noResultText";
         text.className = "col-12";
         var image = document.createElement("img");
-        image.src = "../ASSET/SadDog.png";
+        image.src = "https://github.com/vi-ht/Monito-website/blob/main/ASSET/SadDog.png";
         image.alt = "A sad dog";
         image.id = "noResultIcon";
         image.className = "col-12";
@@ -418,7 +418,7 @@ function filter(obj) {
 // add dog card to list function -----------------------------------------------
 function addDogToList(value, node) {
     var html =
-        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2">'
+        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2" style="cursor: pointer">'
         + '<div class="card card-style p-2 dogCard">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
@@ -434,7 +434,7 @@ function addDogToList(value, node) {
 // add cat card to list function ---------------------------------------------------------
 function addCatToList(value, node) {
     var html =
-        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2">'
+        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2" style="cursor: pointer">'
         + '<div class="card card-style p-2 catCard">'
         + '<img src=' + value.image + ' class="card-img-top " alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
@@ -449,7 +449,7 @@ function addCatToList(value, node) {
 // add pet card to list function ---------------------------------------------------------
 function addPetToList(value, node) {
     var html =
-        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2">'
+        '<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2" style="cursor: pointer">'
         + '<div class="card card-style p-2 petCard">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'

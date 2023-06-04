@@ -211,7 +211,7 @@ function dividerByCategory() {
         text.id = "noResultText";
         text.className = "col-12";
         var image = document.createElement("img");
-        image.src = "../ASSET/SadDog.png";
+        image.src = "https://github.com/vi-ht/Monito-website/blob/main/ASSET/SadDog.png";
         image.alt = "A sad dog";
         image.id = "noResultIcon";
         image.className = "col-12";
@@ -463,6 +463,7 @@ function addToList(product, node) {
     //create container
     let container = document.createElement("div");
     container.className = "col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 p-2";
+    container.style.cursor = "pointer"
     //create product card
     let productCard = document.createElement("div");
     productCard.className = "card card-style p-2";

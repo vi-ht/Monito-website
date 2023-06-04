@@ -27,7 +27,7 @@ knowledgeList.map(addKnowledgeToList);
 document.getElementById("total").innerHTML = knowledgeList.length > 1 ? knowledgeList.length + " tips" : knowledgeList.length + " tip";
 function addKnowledgeToList(value) {
     var html =
-        '<div class="col-lg-4 col-md-4 p-2 knowledgeCard">'
+        '<div class="col-lg-4 col-md-4 p-2 knowledgeCard" style="cursor: pointer">'
         + '<div class="card card-style p-2">'
         + '<img src=' + value.image + ' class="card-img-top" alt="...">'
         + '<div class="card-body pb-0 ps-1 pe-1">'
